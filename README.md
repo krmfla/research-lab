@@ -1,2 +1,4 @@
 # research-lab
-筆記庫
+modern web 2016 notes
+
+https://github.com/krmfla/research-lab/blob/master/modern-web.md
