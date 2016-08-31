@@ -38,24 +38,34 @@ https://facebook.github.io/react-native/showcase.html
 ##三、網站自動化測試
 >劉艾霖 | Exma-Square資深軟體工程師
 
->陳鋒逸 | Microsoft MVP、Full Stack Engineer
-
 **WebdriverIO**
 
 用 NodeJS 所撰寫的測試工具，可應用於瀏覽器及mobile app上
 
 code簡潔且直覺
 
+產生測試報表
 
-##四、體驗優化
+##四、所有人都能輕鬆讀懂的測試程式
+>陳鋒逸 | Microsoft MVP、Full Stack Engineer
+
+**Cucumber.js**
+
+行為驅動開發(BDD)工具
+
+PM與工程師間有效溝通、減少落差
+
+測試即文件
+
+##五、體驗優化
 >Paul Li | Yahoo EC Front End Engineer
 
 ##五、有趣的前端技術應用
-用 Arduino 與 three.js 實做互動式全息投影網頁
+**用 Arduino 與 three.js 實做互動式全息投影網頁**
 
 
 
-用 Javascript 打造的影像處理軟體
+**用 Javascript 打造的影像處理軟體**
 
 [Piconion 影像處理](https://chrome.google.com/webstore/detail/piconion-photo-editor/mggbmdmggklbdgibmojleenhklmieifd?hl=zh-TW&_asi=1)
 
