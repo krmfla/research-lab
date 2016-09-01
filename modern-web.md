@@ -5,13 +5,13 @@
 ##一、前端工程團隊的演進
 >程劭非 | 阿里巴巴 無線事業部 高級技術專家
 
-技術leader職責=工程體系構建+團隊成長+業務支撐
+技術leader職責 = 工程體系構建 + 團隊成長 + 業務支撐
 
 整合2、300人的前端技術團隊
 
-支撐每日活躍用戶1.5 億人的業務量
+支撐每日1.5 億人的活躍用戶量
 
-工程體系的演進與型態：
+工程系統的演進與型態：
   * 庫
   * 工具
   * 平台
@@ -39,23 +39,17 @@ https://facebook.github.io/react-native/showcase.html
 >劉艾霖 | Exma-Square資深軟體工程師
 
 **WebdriverIO**
-
- * 用 NodeJS 所撰寫的測試工具，可應用於瀏覽器及mobile app上
-
- * code簡潔且直覺
-
- * 產生測試報表
+  * 用 NodeJS 所撰寫的測試工具，可應用於瀏覽器及mobile app上
+  * code簡潔且直覺
+  * 產生測試報表
 
 ##四、所有人都能輕鬆讀懂的測試程式
 >陳鋒逸 | Microsoft MVP、Full Stack Engineer
 
 **Cucumber.js**
-
- * 行為驅動開發(BDD)工具
-
- * PM與工程師間有效溝通、減少落差
-
- * 測試即文件
+  * 行為驅動開發(BDD)工具
+  * PM與工程師間有效溝通、減少落差
+  * 測試即文件
 
 ##五、服務體驗優化
 >Paul Li | Yahoo EC Front End Engineer
@@ -69,12 +63,9 @@ i13n = Instrumentation
 確保服務走在正確的路上
 
 **gaExt.js**
-
- * Google Analytics Extended Library
-
- * 安裝簡單, 快速拔插
-
- * 使用容易, 透過 conf data 的置入就達到功能附加, 不需要額外撰寫 script
+  * Google Analytics Extended Library
+  * 安裝簡單, 快速拔插
+  * 使用容易, 透過 conf data 的置入就達到功能附加, 不需要額外撰寫 script
 
 應用：
 
