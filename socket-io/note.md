@@ -11,7 +11,7 @@ http://socket.io/
  * 連線遊戲
  * Single Page Application
 
-需引入
+引入Socket.IO
 ``` javascript
 <script src="https://cdn.socket.io/socket.io-1.2.0.js"></script>
 ```
