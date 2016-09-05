@@ -15,4 +15,19 @@ http://socket.io/
 ``` javascript
 <script src="https://cdn.socket.io/socket.io-1.2.0.js"></script>
 ```
+## 聊天室
 
+>reference: [http://socket.io/get-started/chat/](http://socket.io/get-started/chat/)
+
+sample code[example-chatRoom](https://github.com/krmfla/research-lab/tree/master/socket-io/sample-chatRoom)
+
+!需先安裝node.js
+
+用node.js運行app.js
+```
+$ node app.js
+```
+在瀏覽器上運行
+```
+http://localhost:3000
+```
