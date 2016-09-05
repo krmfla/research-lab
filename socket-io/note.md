@@ -19,7 +19,7 @@ http://socket.io/
 
 >reference: [http://socket.io/get-started/chat/](http://socket.io/get-started/chat/)
 
-sample code[example-chatRoom](https://github.com/krmfla/research-lab/tree/master/socket-io/sample-chatRoom)
+sample code: [example-chatRoom](https://github.com/krmfla/research-lab/tree/master/socket-io/sample-chatRoom)
 
 !需先安裝node.js
 
