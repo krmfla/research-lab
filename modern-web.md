@@ -1,6 +1,6 @@
 ##Modern Web 2016 筆記大綱
 
-![banner](https://github.com/krmfla/research-lab/blob/master/images/Selection_030.jpg "modern web 2016")
+![banner](https://github.com/krmfla/research-lab/blob/master/images/modernweb.jpg "modern web 2016")
 
 ##一、前端工程團隊的演進
 >程劭非 | 阿里巴巴 無線事業部 高級技術專家
