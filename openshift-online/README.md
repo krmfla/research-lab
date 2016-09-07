@@ -21,12 +21,12 @@ PaaS架構的雲端服務(平台即服務)
 ##如何部屬 Nodejs 程式到 Openshift 上?
 >reference: [http://single9.net/2015/10/如何部屬-nodejs-程式到-openshift-上/](http://single9.net/2015/10/%E5%A6%82%E4%BD%95%E9%83%A8%E5%B1%AC-nodejs-%E7%A8%8B%E5%BC%8F%E5%88%B0-openshift-%E4%B8%8A/)
 
-在server.js加入下述宣告，以啟用node.js做為運行環境
+在server.js檔案前面加入宣告，以啟用node.js做為運行環境 (= $ node server.js )
 ```
 #!/bin/env node
 ```
-
-```javascript
+若要印console，參數為：
+```
 http.listen(process.env.OPENSHIFT_NODEJS_PORT, process.env.OPENSHIFT_NODEJS_IP, function(){
   console.log("start");
 });
