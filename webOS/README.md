@@ -14,7 +14,7 @@ http://developer.lge.com/webOSTV/develop/web-app/app-test/
 
 2. 下載Developer Mode App並輸入帳號密碼
 
-3. 與IDE間建立連線
+3. 與webOS IDE間建立連線
 
 4. Run as webOS_TV
 
