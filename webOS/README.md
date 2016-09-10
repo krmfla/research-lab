@@ -4,6 +4,9 @@
 ##Web SDK v3.0.0
 http://developer.lge.com/webOSTV/sdk/web-sdk/
 
+##Using webOS TV Eclipse IDE
+http://developer.lge.com/webOSTV/sdk/web-sdk/webos-tv-ide/using-webide/
+
 ##Build App on webOS TV
 http://developer.lge.com/webOSTV/develop/web-app/app-test/
 
