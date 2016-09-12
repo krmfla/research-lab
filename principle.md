@@ -15,7 +15,7 @@
 
 <br>
 ##Refactoring - 程式重構
->Teddy Chen 2014年4月7日 星期一
+>Teddy Chen 2014/4/7
 <br>
 >http://teddy-chen-tw.blogspot.tw/2014/04/refactoring.html
 
