@@ -20,11 +20,14 @@ http://developer.lge.com/webOSTV/develop/web-app/app-developer-guide/creating-an
 </html>
 ```
 
+javascript
+```javascript
+location.href='http://www.example.com/index.html';
 ```
-<html>
-    <script>location.href='http://www.example.com/index.html';</script>
-</html>
-```
+
+<br>
+##player
+
 
 <br>
 ##Build App on webOS TV
@@ -45,6 +48,11 @@ http://developer.lge.com/webOSTV/develop/web-app/app-test/
 "resolution": "1280x720"
 ```
  http://developer.lge.com/webOSTV/develop/web-app/app-developer-guide/app-metadata
+ 
+ <br>
+ ##API
+ <b>Device Unique ID</b>
+ http://developer.lge.com/webOSTV/api/webos-service-api/device-unique-id/
  
  <br>
 ##submit App to LG seller Lounge
