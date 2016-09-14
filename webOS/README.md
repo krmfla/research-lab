@@ -66,9 +66,9 @@ http://developer.lge.com/webOSTV/develop/web-app/app-test/
 
 http://developer.lge.com/webOSTV/api/webos-service-api/device-unique-id/
 
-<b>device info</b>
+<b>TV Device Information</b>
 
-TV Device Information
+http://developer.lge.com/webOSTV/api/webos-service-api/tv-device-information/
  
 <b>remote keycode</b>
 
