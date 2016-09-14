@@ -27,6 +27,17 @@ location.href='http://www.example.com/index.html';
 
 <br>
 ##player
+ * HTML5 Video
+```javascript
+<video id="myVideo">
+    <source src="./video/oceans-clip.mp4" type="video/mp4" />
+</video>
+
+```
+ * enyo-moonstone video player
+```javascript
+var VideoPlayer = require('moonstone-extra/VideoPlayer')
+```
 
 
 <br>
@@ -50,9 +61,28 @@ http://developer.lge.com/webOSTV/develop/web-app/app-test/
  http://developer.lge.com/webOSTV/develop/web-app/app-developer-guide/app-metadata
  
  <br>
- ##API
- <b>Device Unique ID</b>
- http://developer.lge.com/webOSTV/api/webos-service-api/device-unique-id/
+##API
+<b>Device Unique ID</b>
+
+http://developer.lge.com/webOSTV/api/webos-service-api/device-unique-id/
+<b>device info</b>
+ 
+<b>remote keycode</b>
+
+http://developer.lge.com/webOSTV/design/webos-tv-system-ui/remote-control
+
+Button | Keycode
+------ | -------
+Left   | 0x25
+Up	   | 0x26
+Right  | 0x27
+Down   | 0x28
+Select | 0x0D
+Back   | 0x1CD
+Red	   | 0x193
+Green  | 0x194
+Yellow | 0x195
+Blue   | 0x196
  
  <br>
 ##submit App to LG seller Lounge
