@@ -13,11 +13,7 @@ http://developer.lge.com/webOSTV/sdk/web-sdk/webos-tv-ide/using-webide/
 ##Creating a Hosted Web App
 http://developer.lge.com/webOSTV/develop/web-app/app-developer-guide/creating-and-deploying-hosted-web-application/
 ```javascript
-<html>
-    <head>
-        <meta http-equiv="refresh" content="0;url=http://www.example.com/index.html">
-    </head>
-</html>
+<meta http-equiv="refresh" content="0;url=http://www.example.com/index.html">
 ```
 
 javascript
@@ -26,7 +22,7 @@ location.href='http://www.example.com/index.html';
 ```
 
 <br>
-##player
+##Player
  * HTML5 Video
 ```javascript
 <video id="myVideo">
@@ -62,6 +58,10 @@ http://developer.lge.com/webOSTV/develop/web-app/app-test/
  
  <br>
 ##API
+require:
+```javascript
+<script src="webOSjs-0.1.0/webOS.js" charset="utf-8"></script>
+```
 <b>Device Unique ID</b>
 
 http://developer.lge.com/webOSTV/api/webos-service-api/device-unique-id/
