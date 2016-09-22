@@ -80,7 +80,11 @@ Button  | Left | Up   | Right | Down | Select | Back  | Red   | Green | Yellow |
 Keycode | 37   | 38   | 39    | 40   | 13     | 461   | 403   | 404   | 405    | 406
 Hex     | 0x25 | 0x26 | 0x27  | 0x28 | 0x0D   | 0x1CD | 0x193 | 0x194 | 0x195  | 0x196
  
- <br>
+<br>
+ 
+##App Icon & Background style setting
+http://developer.lge.com/webOSTV/develop/web-app/app-developer-guide/app-packaging-guide/key-app-assets/
+ 
 ##submit App to LG seller Lounge
 http://seller.lgappstv.com/seller/main/Main.lge
 
