@@ -1,4 +1,4 @@
-#webOS
+#webOS Summary
 > webOS developer site: http://developer.lge.com/webOSTV/develop/
 
 <br>
@@ -59,9 +59,10 @@ http://developer.lge.com/webOSTV/develop/web-app/app-test/
  <br>
 ##API
 require:
-```javascript
+```
 <script src="webOSjs-0.1.0/webOS.js" charset="utf-8"></script>
 ```
+
 <b>Device Unique ID</b>
 
 http://developer.lge.com/webOSTV/api/webos-service-api/device-unique-id/
@@ -74,18 +75,10 @@ http://developer.lge.com/webOSTV/api/webos-service-api/tv-device-information/
 
 http://developer.lge.com/webOSTV/design/webos-tv-system-ui/remote-control
 
-Button | Keycode
------- | -------
-Left   | 0x25
-Up	   | 0x26
-Right  | 0x27
-Down   | 0x28
-Select | 0x0D
-Back   | 0x1CD
-Red	   | 0x193
-Green  | 0x194
-Yellow | 0x195
-Blue   | 0x196
+Button  | Left | Up   | Right | Down | Select | Back  | Red   | Green | Yellow | Blue
+------- | ---- | ---- | ----- | ---- | ------ | ----- | ----- | ----- | ------ | -----
+Keycode | 37   | 38   | 39    | 40   | 13     | 461   | 403   | 404   | 405    | 406
+Hex     | 0x25 | 0x26 | 0x27  | 0x28 | 0x0D   | 0x1CD | 0x193 | 0x194 | 0x195  | 0x196
  
  <br>
 ##submit App to LG seller Lounge
