@@ -58,7 +58,7 @@ http://developer.lge.com/webOSTV/develop/web-app/app-test/
  
  <br>
 ##API
-require:
+require webOS.js:
 ```
 <script src="webOSjs-0.1.0/webOS.js" charset="utf-8"></script>
 ```
@@ -79,7 +79,11 @@ Button  | Left | Up   | Right | Down | Select | Back  | Red   | Green | Yellow |
 ------- | ---- | ---- | ----- | ---- | ------ | ----- | ----- | ----- | ------ | -----
 Keycode | 37   | 38   | 39    | 40   | 13     | 461   | 403   | 404   | 405    | 406
 Hex     | 0x25 | 0x26 | 0x27  | 0x28 | 0x0D   | 0x1CD | 0x193 | 0x194 | 0x195  | 0x196
- 
+
+<b>Supported Standard Web APIs.ods (excel)</b>
+
+http://developer.lge.com/webOSTV/files/4314/6191/7265/Supported_Standard_Web_APIs.ods
+
 <br>
  
 ##App Icon & Background style setting
