@@ -8,7 +8,7 @@
 ```
 npm install webdriverio -D  
 ```
-
+<b>安裝 selenium standalone</b>
 ```
 npm install selenium-standalone -g  
 ```
