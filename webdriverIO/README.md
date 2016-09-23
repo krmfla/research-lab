@@ -22,6 +22,7 @@ export PATH="/c/Program Files/Java/<JDK VERSION>/bin:$PATH"
 ```
 selenium-standalone start  
 ```
+<br>
 
 ##撰寫第一個自動測試
 ```javascript
@@ -34,3 +35,7 @@ client
     .url('https://www.google.com.tw')
     .setValue('#lst-ib', 'webdriverIO')
 ```
+<br>
+
+<b>Selecting Elements in WebdriverIO</b>
+>http://blog.kevinlamping.com/selecting-elements-in-webdriverio/
