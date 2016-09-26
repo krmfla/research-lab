@@ -54,6 +54,10 @@ http://developer.lge.com/webOSTV/develop/web-app/app-test/
 ```
 "resolution": "1280x720"
 ```
+ * 啟用返回鍵
+```
+"disableBackHistoryAPI": false
+```
  http://developer.lge.com/webOSTV/develop/web-app/app-developer-guide/app-metadata
  
  <br>
