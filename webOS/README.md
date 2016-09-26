@@ -54,7 +54,7 @@ http://developer.lge.com/webOSTV/develop/web-app/app-test/
 ```
 "resolution": "1280x720"
 ```
- * 啟用返回鍵
+ * 自定返回鍵功能
 ```
 "disableBackHistoryAPI": false
 ```
