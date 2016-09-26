@@ -56,7 +56,7 @@ http://developer.lge.com/webOSTV/develop/web-app/app-test/
 ```
  * 自定返回鍵功能
 ```
-"disableBackHistoryAPI": false
+"disableBackHistoryAPI": true
 ```
  http://developer.lge.com/webOSTV/develop/web-app/app-developer-guide/app-metadata
  
