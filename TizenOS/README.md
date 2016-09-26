@@ -1,4 +1,4 @@
-#TizenOS (for smart TV)
+#TizenOS (smart TV)
 >site: https://www.samsungdforum.com/
 
 ##Player
