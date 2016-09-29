@@ -22,11 +22,34 @@ https://www.samsungdforum.com/TizenApiGuide/tizen3001/index.html
 
 sample code
 ```javascript
-webapis.avplay.open(url);
-webapis.avplay.close();
-webapis.avplay.prepareAsync(successCallback, errorCallback);
-webapis.avplay.play();
+webapis.avplay.open(URL);
+webapis.avplay.setDisplayRect(0, 0, 1280, 720);
 
+var listener = {
+  "onbufferingcomplete": function () {
+    //on buffering complete
+  },
+	"onerror": function (eventType) {
+    //on error
+  }
+};
+webapis.avplay.setListener(listener);
+webapis.avplay.prepareAsync(SUCCESS_CALLBACK, ERROR_CALLBACK);
+
+function SUCCESS_CALLBACK() {
+  webapis.avplay.play();
+}
+
+function ERROR_CALLBACK() {
+}
+
+function STOP_PLAYER() {
+  webapis.avplay.close();
+}
 ```
+
+official sample code
+
+https://github.com/SamsungDForum/PlayerAVPlayMultitasking/blob/master/PlayerAVPlayMultitasking/videoPlayer.js
 
 
