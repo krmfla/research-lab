@@ -14,6 +14,7 @@ To solve this you must remove the wrong JAR file,
 download jstl-1.2.jar and drop it in its entirety in /WEB-INF/lib. 
 
 That's all. You do not need to extract it nor to fiddle in project's Build Path.
+
 <br>
 
 ```
