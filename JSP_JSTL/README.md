@@ -17,11 +17,10 @@ That's all. You do not need to extract it nor to fiddle in project's Build Path.
 
 <br>
 
-```
-JSTL Core <c:if> Tag
+<b>JSTL Core c:if Tag</b>
 
 Example:
-
+```
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <html>
 <head>
