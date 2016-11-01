@@ -35,6 +35,10 @@ location.href='http://www.example.com/index.html';
 var VideoPlayer = require('moonstone-extra/VideoPlayer')
 ```
 
+<b>Changing Video Source</b>
+
+http://developer.lge.com/webOSTV/develop/web-app/remaining-backward-compatible/changing-video-source
+
 
 <br>
 ##Build App on webOS TV
