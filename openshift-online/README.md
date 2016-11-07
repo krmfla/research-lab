@@ -70,6 +70,11 @@ package.json
 }
 ```
 
+於openshift中，啟動虛擬機器並建立一個Application
+```
+$ git clone ssh://Openshift給你的@nodejs-s9.rhcloud.com/~/git/nodejs.git/
+```
+
 用git佈署到openshift上
 ```
 git add .
@@ -89,6 +94,10 @@ http://nodejs-krmfla.rhcloud.com/
 
 <b>多人競賽小遊戲</b>
 
-Coming soon!
+數到3
+
+three-krmfla.rhcloud.com
+
+(Node.js + Express + socket.io)
 
 
