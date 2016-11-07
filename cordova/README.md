@@ -29,6 +29,8 @@ $ cordova run android
 ```
 apk位置: platforms/android/build/outputs/apk/
 
+<br>
+
 若因未定義路徑而build失敗
 ```
 $ export ANDROID_HOME=/.../Android/SDK
