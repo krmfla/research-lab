@@ -96,7 +96,7 @@ http://nodejs-krmfla.rhcloud.com/
 
 數到3
 
-three-krmfla.rhcloud.com
+http://three-krmfla.rhcloud.com
 
 (Node.js + Express + socket.io)
 
