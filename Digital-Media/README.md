@@ -5,4 +5,6 @@ APPLE提出的影音串流技術
 
 
 
+
 ![structure](https://github.com/krmfla/research-lab/blob/master/images/Ozer_HLS_Figure_1.jpg "m3u8 structure")
+<p style="color:gray">reference: <a>What is HLS (HTTP Live Streaming)?</a></p>
