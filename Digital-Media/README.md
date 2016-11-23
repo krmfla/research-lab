@@ -60,10 +60,11 @@ EXT-X-DISCONTINUITY     | 表示之後的媒體文件和之前的媒體文件之
 #Adaptive Bitrate Streaming | 自適性串流
 >https://zh.wikipedia.org/wiki/%E8%87%AA%E9%81%A9%E6%80%A7%E4%B8%B2%E6%B5%81
 
-將M3U8分兩層
-第一層M3U8依客戶端的頻寬速率，切換適合的解析度
+將播放列表文件(如:M3U8)分兩層
 
-第二層M3U8為ts切片列表
+第一層播放列表依客戶端的頻寬速率，切換適合的解析度
+
+第二層播放列表為ts切片列表
 
 ```
 #EXTM3U
@@ -75,6 +76,3 @@ http://WWW.SAMPLE.COM/master_500.m3u8
 #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=875600,CODECS="avc1.4d001f,mp4a.40.2",RESOLUTION=1024x576
 http://WWW.SAMPLE.COM/master_700.m3u8
 ```
-
-
-
