@@ -76,8 +76,13 @@ http://WWW.SAMPLE.COM/master_500.m3u8
 #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=875600,CODECS="avc1.4d001f,mp4a.40.2",RESOLUTION=1024x576
 http://WWW.SAMPLE.COM/master_700.m3u8
 ```
+
 ![structure](https://github.com/krmfla/research-lab/blob/master/images/abs.png "Adaptive Bitrate Streaming")
 >reference: [Wiki-Adaptive bitrate streaming](https://en.wikipedia.org/wiki/Adaptive_bitrate_streaming#/media/File:Adaptive_streaming_overview_daseddon_2011_07_28.png)
+
+<br>
+
+<b>Adaptive streaming in action</b>
 
 ![structure](https://github.com/krmfla/research-lab/blob/master/images/abs2.png "Adaptive Bitrate Streaming")
 >reference: [Wiki-Adaptive bitrate streaming](https://en.wikipedia.org/wiki/Adaptive_bitrate_streaming#/media/File:Adaptive_streaming_overview_bit_rates_2011_07_28.png)
