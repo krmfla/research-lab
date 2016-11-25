@@ -49,7 +49,7 @@ EXT-X-VERSION           | 播放列表版本的適應性
 EXT-X-TARGETDURATION    | 定義每個TS的最大時間長度
 EXT-X-ALLOW-CATCH       | 是否允許暫存
 EXT-X-MEDIA-SEQUENCE    | 定義當前m3u8文件中，第一個文件的序列號。以做為ABR轉換時的對齊依據
-EXT-X-STREAM-INF        | 定義第二層M3U8的屬性及位置<br>#EXT-X-STREAM-INF:ATTRIBUTE=VALUE,TTRIBUTE=VALUE<br>URI
+EXT-X-STREAM-INF        | 定義第二層M3U8的屬性及位置<br>#EXT-X-STREAM-INF:ATTRIBUTE=VALUE,ATTRIBUTE=VALUE<br>URI
 EXT-X-KEY               | 定義加密方式和KEY文件的URI
 EXT-X-PROGRAM-DATE-TIME | 第一個文件的絕對時間
 EXT-X-ENDLIST           | 表明M3U8文件的結束。Live M3U8沒有該tag
