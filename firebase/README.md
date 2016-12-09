@@ -11,6 +11,8 @@
 ##Firebase: Build a Real Time Web Chat App
 https://codelabs.developers.google.com/codelabs/firebase-web/#0
 
+<br>
+
 ##當資料改變時，如何即時更新Client端的資料
 
 <b>實做的機制</b>
