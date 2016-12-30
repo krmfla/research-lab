@@ -2,12 +2,7 @@
 
 >https://firebase.google.com/features/
 
-<br>
-
 ![banner](https://github.com/krmfla/research-lab/blob/master/images/firebase.png "Firebase")
-
-<br>
-
 
 ##What Firebase can do?
 
@@ -16,6 +11,7 @@
 ##Firebase: Build a Real Time Web Chat App
 https://codelabs.developers.google.com/codelabs/firebase-web/#0
 
+Initialize
 ```javascript
 //引入firebase.js及project config
 //設定 > 一般 > 將 Firebase 加入您的網路應用程式
