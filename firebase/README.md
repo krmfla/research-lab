@@ -32,3 +32,7 @@ https://codelabs.developers.google.com/codelabs/firebase-web/#0
 
 <br>
 ##對瀏覽器的支援度？
+
+## 應用
+ * log追蹤
+ * 線上應用程式
