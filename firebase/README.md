@@ -14,11 +14,18 @@ https://codelabs.developers.google.com/codelabs/firebase-web/#0
 
 ### API
 <b>firebase.auth()</b>
+
 >https://firebase.google.com/docs/reference/js/firebase.auth.Auth
 
-
-
 <br>
+
+<b>firebase.database()</b>
+
+>https://firebase.google.com/docs/reference/js/firebase.database
+
+Synchronize Messages
+
+
 
 
 
