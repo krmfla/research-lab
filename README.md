@@ -28,6 +28,13 @@ Samsung smart TV 開發環境
 
 <br>
 
+### OpenShift Online介紹
+
+免費的雲端服務平台，支援Node.js開發
+
+>https://github.com/krmfla/research-lab/blob/master/openshift-online/README.md
+
+
 ### WebdriverIO介紹
 
 自動化測試工具
