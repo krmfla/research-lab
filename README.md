@@ -40,7 +40,7 @@
 
 LG smart TV 開發環境
 
->https://github.com/krmfla/research-lab/tree/master/webOS
+>https://github.com/krmfla/research-lab/blob/master/webOS/README.md
 
 <br>
 
