@@ -11,7 +11,18 @@
 ##Firebase: Build a Real Time Web Chat App
 https://codelabs.developers.google.com/codelabs/firebase-web/#0
 
+
+### API
+<b>firebase.auth()</b>
+>https://firebase.google.com/docs/reference/js/firebase.auth.Auth
+
+
+
 <br>
+
+
+
+
 
 ##當資料改變時，如何即時更新Client端的資料
 
