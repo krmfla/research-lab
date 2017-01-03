@@ -67,17 +67,26 @@ Synchronize Messages
 
 儲存空間
 
+<br>
+
+<b>firebase.storage().ref()</b>
+
 >https://firebase.google.com/docs/reference/js/firebase.storage
 
-
-
+API                       | Description
+------------------------- | -----------
+ref().put(DATA, METADATA) | 上傳檔案
 
 
 ##當資料改變時，如何即時更新Client端的資料
 
+<br>
+
 ## 收費模式
 
 >https://firebase.google.com/pricing/
+
+<br>
 
 <b>實做的機制</b>
 
