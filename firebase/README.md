@@ -56,8 +56,8 @@ Initialize
 
 API                     | Description
 ----------------------- | -----------
-ref.on(EVENT, CALLBACK) | 當資料改變時，觸發回呼函式<br>eventType: "value", "child_added", "child_changed", "child_removed", "child_moved."
-ref.off()               | 移除監聽
+ref().on(EVENT, CALLBACK) | 當資料改變時，觸發回呼函式<br>eventType: "value", "child_added", "child_changed", "child_removed", "child_moved."
+ref().off()               | 移除監聽
 
 Synchronize Messages
 
