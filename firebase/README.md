@@ -54,20 +54,30 @@ Initialize
 >https://firebase.google.com/docs/reference/js/firebase.database.Reference
 
 
-API                     | Description
------------------------ | -----------
+API                       | Description
+------------------------- | -----------
 ref().on(EVENT, CALLBACK) | 當資料改變時，觸發回呼函式<br>eventType: "value", "child_added", "child_changed", "child_removed", "child_moved."
 ref().off()               | 移除監聽
+ref().push()              | 新增資料
+ref().set()               | 寫入/改寫資料
 
 Synchronize Messages
 
+<b>firebase.storage()</b>
 
+儲存空間
+
+>https://firebase.google.com/docs/reference/js/firebase.storage
 
 
 
 
 
 ##當資料改變時，如何即時更新Client端的資料
+
+## 收費模式
+
+>https://firebase.google.com/pricing/
 
 <b>實做的機制</b>
 
