@@ -77,6 +77,7 @@ API                       | Description
 ------------------------- | -----------
 ref().put(DATA, METADATA) | 上傳檔案
 
+<br>
 
 ##當資料改變時，如何即時更新Client端的資料
 
