@@ -6,6 +6,15 @@
 
 ##Firebase features
 
+* 提供免費服務
+* 身份驗證系統
+* 即時更新的資料庫
+* 雲端儲存空間
+* 分析工具
+* 提供用戶成長工具
+* 廣告收益
+* 支援Android / IOS / web開發及分析
+
 <br>
 
 ##Firebase: Build a Real Time Web Chat App
