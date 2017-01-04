@@ -40,7 +40,7 @@ Initialize
 
 
 ### API
-<b>firebase.auth()</b>
+**firebase.auth()**
 
 帳號驗證
 
@@ -48,7 +48,7 @@ Initialize
 
 <br>
 
-<b>firebase.database()</b>
+**firebase.database()**
 
 資料庫
 
@@ -56,7 +56,7 @@ Initialize
 
 <br>
 
-<b>firebase.database().ref()</b>
+**firebase.database().ref()**
 
 資料位置參照 - reference
 
@@ -72,13 +72,13 @@ ref().set()               | 寫入/改寫資料
 
 Synchronize Messages
 
-<b>firebase.storage()</b>
+**firebase.storage()**
 
 儲存空間
 
 <br>
 
-<b>firebase.storage().ref()</b>
+**firebase.storage().ref()**
 
 >https://firebase.google.com/docs/reference/js/firebase.storage
 
