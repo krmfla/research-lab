@@ -14,9 +14,17 @@
 
 ### Socket.IO
 
-可讓不同瀏覽器或裝置之間，互相溝通的程式庫
+可讓不同瀏覽器或裝置間，互相溝通的程式庫
 
 >https://github.com/krmfla/research-lab/blob/master/socket-io/README.md
+
+<br>
+
+### Firebase
+
+開發方便、好用的後端服務平臺
+
+>https://github.com/krmfla/research-lab/tree/master/firebase
 
 <br>
 
