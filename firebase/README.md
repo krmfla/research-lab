@@ -75,7 +75,8 @@ ref().once()              | 取資料
 ref.once("value")
   .then(function(data){
     var obj = data.val();
-  }.bind(this)).catch(function(error){
+  }.bind(this))
+  .catch(function(error){
     console.error("error:", error);
   });
 ```
