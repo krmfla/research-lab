@@ -69,7 +69,18 @@ ref().on(EVENT, CALLBACK) | 當資料改變時，觸發回呼函式<br>eventType
 ref().off()               | 移除監聽
 ref().push()              | 新增資料
 ref().set()               | 寫入/改寫資料
+ref().once()              | 取資料
 
+```javascript
+ref.once("value")
+  .then(function(data){
+    var obj = data.val();
+  }.bind(this)).catch(function(error){
+    console.error("error:", error);
+  });
+```
+
+<br>
 Synchronize Messages
 
 **firebase.storage()**
