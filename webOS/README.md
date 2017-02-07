@@ -7,11 +7,11 @@ http://webostv.developer.lge.com/sdk/download/download-sdk/
 
 <br>
 ##Using webOS TV Eclipse IDE
-http://developer.lge.com/webOSTV/sdk/web-sdk/webos-tv-ide/using-webide/
+http://webostv.developer.lge.com/sdk/ide/
 
 <br>
 ##Creating a Hosted Web App
-http://developer.lge.com/webOSTV/develop/web-app/app-developer-guide/creating-and-deploying-hosted-web-application/
+http://webostv.developer.lge.com/develop/app-developer-guide/hosted-web-app/
 ```javascript
 <meta http-equiv="refresh" content="0;url=http://www.example.com/index.html">
 ```
@@ -37,12 +37,13 @@ var VideoPlayer = require('moonstone-extra/VideoPlayer')
 
 <b>Changing Video Source</b>
 
-http://developer.lge.com/webOSTV/develop/web-app/remaining-backward-compatible/changing-video-source
+http://webostv.developer.lge.com/develop/remaining-backward-compatible/changing-video-source/
 
 
 <br>
 ##Build App on webOS TV
-http://developer.lge.com/webOSTV/develop/web-app/app-test/
+*App Testing*
+http://webostv.developer.lge.com/develop/app-test/
 
 1. 於 http://developer.lge.com 註冊開發人員帳號
 
@@ -62,7 +63,7 @@ http://developer.lge.com/webOSTV/develop/web-app/app-test/
 ```
 "disableBackHistoryAPI": true
 ```
- http://developer.lge.com/webOSTV/develop/web-app/app-developer-guide/app-metadata
+http://webostv.developer.lge.com/develop/app-developer-guide/app-metadata/
  
  <br>
 ##API
@@ -73,15 +74,15 @@ require webOS.js:
 
 <b>Device Unique ID</b>
 
-http://developer.lge.com/webOSTV/api/webos-service-api/device-unique-id/
+http://webostv.developer.lge.com/api/webos-service-api/device-unique-id/
 
 <b>TV Device Information</b>
 
-http://developer.lge.com/webOSTV/api/webos-service-api/tv-device-information/
+http://webostv.developer.lge.com/api/webos-service-api/tv-device-information/
  
 <b>remote keycode</b>
 
-http://developer.lge.com/webOSTV/design/webos-tv-system-ui/remote-control
+http://webostv.developer.lge.com/design/webos-tv-system-ui/remote-control/
 
 Button  | Left | Up   | Right | Down | Select | Back  | Red   | Green | Yellow | Blue
 ------- | ---- | ---- | ----- | ---- | ------ | ----- | ----- | ----- | ------ | -----
@@ -92,14 +93,14 @@ Button  | 0   | 1   | 2   | 3   | 4   | 5   | 6   | 7   | 8   | 9   | Play | Pau
 ------- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | ---- | ----- | -------- | -------
 Keycode | 48  | 49  | 50  | 51  | 52  | 53  | 54  | 55  | 56  | 57  | 415  | 19    | 412      | 417
 
-<b>Supported Standard Web APIs.ods (excel)</b>
+<b>Supported Standard Web APIs</b>
 
-http://developer.lge.com/webOSTV/files/4314/6191/7265/Supported_Standard_Web_APIs.ods
+http://webostv.developer.lge.com/api/web-api/supported-standard-web-api/
 
 <br>
  
 ##App Icon & Background style setting
-http://developer.lge.com/webOSTV/develop/web-app/app-developer-guide/app-packaging-guide/key-app-assets/
+http://webostv.developer.lge.com/develop/app-developer-guide/app-packaging-guide/key-app-assets/
  
 ##submit App to LG seller Lounge
 http://seller.lgappstv.com/seller/main/Main.lge
