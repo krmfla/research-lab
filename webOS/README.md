@@ -1,9 +1,9 @@
 #webOS Summary
-> webOS developer site: http://developer.lge.com/webOSTV/develop/
+> webOS developer site: http://webostv.developer.lge.com/
 
 <br>
-##Web SDK v3.0.0
-http://developer.lge.com/webOSTV/sdk/web-sdk/
+##download Web SDK v3.0.0
+http://webostv.developer.lge.com/sdk/download/download-sdk/
 
 <br>
 ##Using webOS TV Eclipse IDE
