@@ -6,8 +6,9 @@
 http://webostv.developer.lge.com/sdk/download/download-sdk/
 
 <br>
-##Using webOS TV Eclipse IDE
+##Using webOS TV IDE
 http://webostv.developer.lge.com/sdk/ide/
+http://webostv.developer.lge.com/sdk/ide/setting-project/
 
 <br>
 ##Creating a Hosted Web App
@@ -47,11 +48,11 @@ http://webostv.developer.lge.com/develop/app-test/
 
 1. 於 http://developer.lge.com 註冊開發人員帳號
 
-2. 下載Developer Mode App並輸入帳號密碼
+2. 在TV上下載Developer Mode App並輸入帳號密碼
 
 3. 與webOS IDE間建立連線
 
-4. Run as webOS_TV
+4. 在IDE上Run as webOS_TV
 
 <br>
 ##App Metadata (appinfo.json)
