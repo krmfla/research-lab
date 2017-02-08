@@ -44,7 +44,9 @@ http://webostv.developer.lge.com/develop/remaining-backward-compatible/changing-
 
 <br>
 ##Build App on webOS TV
-*App Testing*
+
+**App Testing**
+
 http://webostv.developer.lge.com/develop/app-test/
 
 1. 於 http://developer.lge.com 註冊開發人員帳號
