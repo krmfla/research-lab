@@ -4,6 +4,8 @@
 <br>
 ##Amazon EC2
 
+amazon virtual machine
+
 <br>
 ##Amazon S3
 
