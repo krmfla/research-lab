@@ -85,6 +85,12 @@ git push
 ```
 remote: Git Post-Receive Result: success
 ```
+
+更新
+```
+git add FILENAME
+```
+
 ##DEMO
 <b>手機遠程操控簡報</b>
 
