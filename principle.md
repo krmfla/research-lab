@@ -24,10 +24,9 @@
  * 程式應該只關注一個目標，並儘可能把它做好。<br> Write programs that do one thing and do it well.
  * 讓程式能夠互相協同工作。<br> Write programs to work together.
  * 應該讓程式處理文字資料流，因為這是一個通用的介面。<br> Write programs to handle text streams, because that is a universal interface.
-
-
-
-
-
-
-
+ 
+## 考慮各種可能的情境
+* 有權限
+* 無權限
+* 失敗時(error / connected fail)
+* 有資料無內容
