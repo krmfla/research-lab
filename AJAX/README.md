@@ -1,6 +1,6 @@
 ## JQuery AJAX
 
-###JQuery Deferred
+### JQuery Deferred
 
 延遲執行callback，可串接多個任務
 
