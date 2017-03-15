@@ -1,8 +1,8 @@
-#Modern Web 2016 筆記大綱
+# Modern Web 2016 筆記大綱
 
 ![banner](https://github.com/krmfla/research-lab/blob/master/images/modernweb.jpg "modern web 2016")
 
-##一、前端工程團隊的演進
+## 一、前端工程團隊的演進
 >程劭非 | 阿里巴巴 無線事業部 高級技術專家
 
 技術leader職責 = 工程體系構建 + 團隊成長 + 業務支撐
@@ -20,7 +20,7 @@
   * 獎勵制度
   * 寫文件的需求
 
-##二、React Native
+## 二、React Native
 >李欣龍 (山姆大叔) | 趨勢科技 前端工程師
 
 >梁宵 | 搜狗 資深高級開發工程師
@@ -35,7 +35,7 @@
 
 https://facebook.github.io/react-native/showcase.html
 
-##三、網站自動化測試
+## 三、網站自動化測試
 >劉艾霖 | Exma-Square資深軟體工程師
 
 **WebdriverIO**
@@ -43,7 +43,7 @@ https://facebook.github.io/react-native/showcase.html
   * code簡潔且直覺
   * 產生測試報表
 
-##四、所有人都能輕鬆讀懂的測試程式
+## 四、所有人都能輕鬆讀懂的測試程式
 >陳鋒逸 | Microsoft MVP、Full Stack Engineer
 
 **Cucumber.js**
@@ -51,7 +51,7 @@ https://facebook.github.io/react-native/showcase.html
   * PM與工程師間有效溝通、減少落差
   * 測試即文件
 
-##五、服務體驗優化
+## 五、服務體驗優化
 >Paul Li | Yahoo EC Front End Engineer
 
 i13n = Instrumentation
@@ -75,7 +75,8 @@ Web Components
 
 UX Enchance
 
-##六、有趣的前端技術應用
+## 六、有趣的前端技術應用
+
 <b>用 Arduino 與 three.js 實做互動式全息投影網頁</b>
 
 https://www.youtube.com/watch?v=u40WqUjEgBs
