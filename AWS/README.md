@@ -1,14 +1,13 @@
-#AWS | Amazon Web Services
+# AWS | Amazon Web Services
 >https://aws.amazon.com/tw/
 
-<br>
-##Amazon EC2
 
+## Amazon EC2
 amazon virtual machine
 
-<br>
-##Amazon S3
 
-<br>
-##Amazon Elastic Tramscoder
+## Amazon S3
+
+
+## Amazon Elastic Tramscoder
 >https://aws.amazon.com/tw/elastictranscoder/
