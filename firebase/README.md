@@ -1,10 +1,10 @@
-#Firebase
+# Firebase
 
 >https://firebase.google.com/features/
 
 ![banner](https://github.com/krmfla/research-lab/blob/master/images/firebase.png "Firebase")
 
-##Firebase features
+## Firebase features
 
 * 提供免費服務
 * 身份驗證系統
@@ -15,9 +15,9 @@
 * 廣告收益
 * 支援Android / IOS / web開發及分析
 
-<br>
+<br />
 
-##Firebase: Build a Real Time Web Chat App
+## Firebase: Build a Real Time Web Chat App
 https://codelabs.developers.google.com/codelabs/firebase-web/#0
 
 Initialize
@@ -46,7 +46,7 @@ Initialize
 
 >https://firebase.google.com/docs/reference/js/firebase.auth.Auth
 
-<br>
+<br />
 
 **firebase.database()**
 
@@ -54,7 +54,7 @@ Initialize
 
 >https://firebase.google.com/docs/reference/js/firebase.database
 
-<br>
+<br />
 
 **firebase.database().ref()**
 
@@ -81,14 +81,15 @@ ref.once("value")
   });
 ```
 
-<br>
+<br />
+
 Synchronize Messages
 
 **firebase.storage()**
 
 儲存空間
 
-<br>
+<br />
 
 **firebase.storage().ref()**
 
@@ -98,29 +99,29 @@ API                       | Description
 ------------------------- | -----------
 ref().put(DATA, METADATA) | 上傳檔案
 
-<br>
+<br />
 
 ##當資料改變時，如何即時更新Client端的資料
 
-<br>
+<br />
 
 ## 收費模式
 
 >https://firebase.google.com/pricing/
 
-<br>
+<br />
 
-<b>實做的機制</b>
+**實做的機制**
 
-<br>
+<br />
 
-<b>是否有Listener的人數上限</b>
+**是否有Listener的人數上限**
 
 免費模式：100人
 
 付費模式：無限制
 
-<br>
+<br />
 ##對瀏覽器的支援度？
 
 ## 應用
