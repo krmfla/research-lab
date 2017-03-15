@@ -1,8 +1,8 @@
-#TizenOS (smart TV)
+# TizenOS (smart TV)
 >site: https://www.samsungdforum.com/
 
-##Player
-<b>AVPlay (Video Play) Sample</b>
+## Player
+**AVPlay (Video Play) Sample**
 
 https://www.samsungdforum.com/TizenSampleGuide/tizen3461/index.html
 
@@ -16,7 +16,7 @@ using the AVPlay object
 <object id='av-player' type='application/avplayer'></object>
 ```
 
-<b>AVPlay API</b>
+**AVPlay API**
 
 https://www.samsungdforum.com/TizenApiGuide/tizen3001/index.html
 
