@@ -1,9 +1,9 @@
-#Streaming Media | 串流媒體
+# Streaming Media | 串流媒體
 >https://zh.wikipedia.org/wiki/%E6%B5%81%E5%AA%92%E4%BD%93
 
-<br>
+<br />
 
-#HTTP Live Streaming | HLS
+# HTTP Live Streaming | HLS
 >https://zh.wikipedia.org/wiki/HTTP_Live_Streaming
 
 APPLE提出的HTTP-based影音串流技術
@@ -13,8 +13,9 @@ APPLE提出的HTTP-based影音串流技術
 ![structure](https://github.com/krmfla/research-lab/blob/master/images/Ozer_HLS_Figure_1.jpg "m3u8 structure")
 >reference: [What is HLS (HTTP Live Streaming)?](http://www.streamingmedia.com/Articles/Editorial/What-Is-.../What-is-HLS-(HTTP-Live-Streaming)-78221.aspx)
 
-<br>
-#M3U | M3U8
+<br />
+
+# M3U | M3U8
 >https://zh.wikipedia.org/wiki/M3U
 
 影音播放列表的文件格式
@@ -32,7 +33,9 @@ http://WWW.SAMPLE.COM/media_002.ts
 #EXTINF:10,
 http://WWW.SAMPLE.COM/media_003.ts
 ```
-<br>
+
+<br />
+
 Extended M3U | 擴展M3U指令
 
 指令    |  描述
@@ -40,7 +43,8 @@ Extended M3U | 擴展M3U指令
 #EXTM3U | 文件的頭部，必須是文件的第一行
 #EXTINF | 指示多媒體文件的信息，包括播放時間和標題
 
-<br>
+<br />
+
 新標籤
 
 指令                    |  描述
@@ -55,9 +59,9 @@ EXT-X-PROGRAM-DATE-TIME | 第一個文件的絕對時間
 EXT-X-ENDLIST           | 表明M3U8文件的結束。Live M3U8沒有該tag
 EXT-X-DISCONTINUITY     | 表示之後的媒體文件和之前的媒體文件之间的編碼間斷
 
-<br>
+<br />
 
-#Adaptive Bitrate Streaming | 自適性串流
+# Adaptive Bitrate Streaming | 自適性串流
 >https://zh.wikipedia.org/wiki/%E8%87%AA%E9%81%A9%E6%80%A7%E4%B8%B2%E6%B5%81
 
 將播放列表文件(如:M3U8)分為兩層
@@ -80,9 +84,9 @@ http://WWW.SAMPLE.COM/master_700.m3u8
 ![structure](https://github.com/krmfla/research-lab/blob/master/images/abs.png "Adaptive Bitrate Streaming")
 >reference: [Wiki-Adaptive bitrate streaming](https://en.wikipedia.org/wiki/Adaptive_bitrate_streaming#/media/File:Adaptive_streaming_overview_daseddon_2011_07_28.png)
 
-<br>
+<br />
 
-<b>Adaptive streaming in action</b>
+**Adaptive streaming in action**
 
 ![structure](https://github.com/krmfla/research-lab/blob/master/images/abs2.png "Adaptive Bitrate Streaming")
 >reference: [Wiki-Adaptive bitrate streaming](https://en.wikipedia.org/wiki/Adaptive_bitrate_streaming#/media/File:Adaptive_streaming_overview_bit_rates_2011_07_28.png)
