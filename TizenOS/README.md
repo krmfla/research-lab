@@ -1,6 +1,8 @@
 # TizenOS (smart TV)
 >site: https://www.samsungdforum.com/
 
+<br />
+
 ## Player
 **AVPlay (Video Play) Sample**
 
@@ -15,6 +17,8 @@ using the AVPlay object
 ```javascript
 <object id='av-player' type='application/avplayer'></object>
 ```
+
+<br />
 
 **AVPlay API**
 
@@ -47,6 +51,7 @@ function STOP_PLAYER() {
   webapis.avplay.close();
 }
 ```
+<br />
 
 official sample code
 
