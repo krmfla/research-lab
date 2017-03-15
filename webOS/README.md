@@ -1,18 +1,21 @@
-#webOS Summary
+# webOS Summary
 > webOS developer site: http://webostv.developer.lge.com/
 
-<br>
-##download Web SDK v3.0.0
+<br />
+
+## download Web SDK v3.0.0
 http://webostv.developer.lge.com/sdk/download/download-sdk/
 
-<br>
-##Using webOS TV IDE
+<br />
+
+## Using webOS TV IDE
 http://webostv.developer.lge.com/sdk/ide/
 
 http://webostv.developer.lge.com/sdk/ide/setting-project/
 
-<br>
-##Creating a Hosted Web App
+<br />
+
+## Creating a Hosted Web App
 http://webostv.developer.lge.com/develop/app-developer-guide/hosted-web-app/
 ```javascript
 <meta http-equiv="refresh" content="0;url=http://www.example.com/index.html">
@@ -23,8 +26,9 @@ javascript
 location.href='http://www.example.com/index.html';
 ```
 
-<br>
-##Player
+<br />
+
+## Player
  * HTML5 Video
 ```javascript
 <video id="myVideo">
@@ -37,13 +41,14 @@ location.href='http://www.example.com/index.html';
 var VideoPlayer = require('moonstone-extra/VideoPlayer')
 ```
 
-<b>Changing Video Source</b>
+**Changing Video Source**
 
 http://webostv.developer.lge.com/develop/remaining-backward-compatible/changing-video-source/
 
 
-<br>
-##Build App on webOS TV
+<br />
+
+## Build App on webOS TV
 
 **App Testing**
 
@@ -57,8 +62,9 @@ http://webostv.developer.lge.com/develop/app-test/
 
 4. 在IDE上Run as webOS_TV
 
-<br>
-##App Metadata (appinfo.json)
+<br />
+
+## App Metadata (appinfo.json)
  * 設定App resolution ( "1920x1080", "1280x720" )
 ```
 "resolution": "1280x720"
@@ -69,22 +75,23 @@ http://webostv.developer.lge.com/develop/app-test/
 ```
 http://webostv.developer.lge.com/develop/app-developer-guide/app-metadata/
  
- <br>
-##API
+ <br />
+ 
+## API
 require webOS.js:
 ```
 <script src="webOSjs-0.1.0/webOS.js" charset="utf-8"></script>
 ```
 
-<b>Device Unique ID</b>
+**Device Unique ID**
 
 http://webostv.developer.lge.com/api/webos-service-api/device-unique-id/
 
-<b>TV Device Information</b>
+**TV Device Information**
 
 http://webostv.developer.lge.com/api/webos-service-api/tv-device-information/
  
-<b>remote keycode</b>
+**remote keycode**
 
 http://webostv.developer.lge.com/design/webos-tv-system-ui/remote-control/
 
@@ -97,14 +104,14 @@ Button  | 0   | 1   | 2   | 3   | 4   | 5   | 6   | 7   | 8   | 9   | Play | Pau
 ------- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | ---- | ----- | -------- | -------
 Keycode | 48  | 49  | 50  | 51  | 52  | 53  | 54  | 55  | 56  | 57  | 415  | 19    | 412      | 417
 
-<b>Supported Standard Web APIs</b>
+**Supported Standard Web APIs**
 
 http://webostv.developer.lge.com/api/web-api/supported-standard-web-api/
 
-<br>
+<br />
  
-##App Icon & Background style setting
+## App Icon & Background style setting
 http://webostv.developer.lge.com/develop/app-developer-guide/app-packaging-guide/key-app-assets/
  
-##submit App to LG seller Lounge
+## submit App to LG seller Lounge
 http://seller.lgappstv.com/seller/main/Main.lge
