@@ -1,4 +1,4 @@
-#OpenShift Online介紹
+# OpenShift Online介紹
 >website: https://www.openshift.com/
 
 ![banner](https://github.com/krmfla/research-lab/blob/master/images/openshift.jpg "OpenShift Online")
@@ -14,11 +14,11 @@ PaaS架構的雲端服務(平台即服務)
  * 512MB伺服器記憶體
  * 1Gear的CPU核心(最高可到3 Gears)
  
-##OpenShift Quick Start
+## OpenShift Quick Start
 >https://github.com/openshift-quickstart
 
 
-##如何部屬 Nodejs 程式到 Openshift 上?
+## 如何部屬 Nodejs 程式到 Openshift 上?
 >reference: [http://single9.net/2015/10/如何部屬-nodejs-程式到-openshift-上/](http://single9.net/2015/10/%E5%A6%82%E4%BD%95%E9%83%A8%E5%B1%AC-nodejs-%E7%A8%8B%E5%BC%8F%E5%88%B0-openshift-%E4%B8%8A/)
 
 在server.js檔案前面加入宣告，以啟用node.js做為運行環境 (= $ node server.js )
@@ -92,18 +92,16 @@ git add FILENAME
 ```
 
 ##DEMO
-<b>手機遠程操控簡報</b>
+**手機遠程操控簡報**
 
 http://nodejs-krmfla.rhcloud.com/
 
 (Node.js + Express + socket.io)
 
-<b>多人競賽小遊戲</b>
+**多人競賽小遊戲**
 
 數到3
 
 http://three-krmfla.rhcloud.com
 
 (Node.js + Express + socket.io)
-
-
