@@ -1,13 +1,13 @@
-#ReactiveX JS
+# ReactiveX JS
 >http://reactivex.io/
 
 An API for asynchronous programming
 with observable streams
 
-##基礎觀念
+## 基礎觀念
 >http://ithelp.ithome.com.tw/articles/10186103
 
-##Functional Reactive Programming
+## Functional Reactive Programming
 
 <b>Functional Programming</b>
 
@@ -25,7 +25,7 @@ add(1,2)
 a = 1;
 ```
 
-<br>
+<br />
 
 <b>Reactive Programming</b>
 
