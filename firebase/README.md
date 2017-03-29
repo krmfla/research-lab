@@ -72,7 +72,7 @@ ref().set()               | 寫入/改寫資料
 ref().once()              | 取資料
 
 ```javascript
-ref.once("value")
+firebase.database().ref("YOUR_DATABASE_KEY").once("value")
   .then(function(data){
     var obj = data.val();
   }.bind(this))
@@ -101,7 +101,7 @@ ref().put(DATA, METADATA) | 上傳檔案
 
 <br />
 
-##當資料改變時，如何即時更新Client端的資料
+## 當資料改變時，如何即時更新Client端的資料
 
 <br />
 
