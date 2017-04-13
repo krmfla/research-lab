@@ -18,7 +18,7 @@ var express = require('express');
 var app = express();
 var http = require('http').Server(app);
 
-app.use(express.static('public')); 讓public內資源能被調用
+app.use(express.static('public')); //讓public內資源能被調用
 
 app.get('/', function(req, res){
   res.sendFile(__dirname + '/index.html');
@@ -39,8 +39,8 @@ node server.js
 
 ### 建立https server
 
-> reference: 
-> http://blog.kenyang.net/2016/04/16/setting-up-an-https-server-with-nodejs
+> reference:<br>
+> http://blog.kenyang.net/2016/04/16/setting-up-an-https-server-with-nodejs<br>
 > http://jade.logdown.com/posts/233332-nodejs-express-4x-using-https-ssl
 
 產生 SSL 憑證
