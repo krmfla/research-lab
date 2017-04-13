@@ -12,6 +12,7 @@ $ npm install --save express
 
 ## 用node.js建立web server
 
+server.js
 ```node
 var express = require('express');
 var app = express();
@@ -28,12 +29,19 @@ http.listen(3000, function(){
 });
 ```
 
+run
+
+```
+node server.js
+```
+
 <br>
 
 ### 建立https server
 
-> reference: http://blog.kenyang.net/2016/04/16/setting-up-an-https-server-with-nodejs
->            http://jade.logdown.com/posts/233332-nodejs-express-4x-using-https-ssl
+> reference: 
+> http://blog.kenyang.net/2016/04/16/setting-up-an-https-server-with-nodejs
+> http://jade.logdown.com/posts/233332-nodejs-express-4x-using-https-ssl
 
 產生 SSL 憑證
 ```
@@ -47,6 +55,8 @@ $ openssl x509 -req -in yourcsr.csr -signkey yourkey.pem -out yourcert.pem
 $ openssl x509 -in yourkey.crt -out yourkey.pem -outform PEM
 $ openssl x509 -in yourcert.crt -out yourcert.pem -outform PEM
 ```
+
+server.js
 
 ```node
 var https   = require("https");
