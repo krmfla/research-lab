@@ -1,12 +1,12 @@
 # TizenOS (smart TV)
->site: https://www.samsungdforum.com/
+>site: http://developer.samsung.com/tv/develop
 
 <br />
 
 ## Player
 **AVPlay (Video Play) Sample**
 
-https://www.samsungdforum.com/TizenSampleGuide/tizen3461/index.html
+http://developer.samsung.com/tv/develop/api-references/samsung-product-api-references/avplay-api/
 
 Environment Set Up
 ```javascript
@@ -22,7 +22,7 @@ using the AVPlay object
 
 **AVPlay API**
 
-https://www.samsungdforum.com/TizenApiGuide/tizen3001/index.html
+http://developer.samsung.com/tv/develop/api-references/samsung-product-api-references/avplay-api
 
 sample code
 ```javascript
