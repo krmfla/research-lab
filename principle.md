@@ -1,7 +1,6 @@
 ## 3 Key Software Principles You Must Understand
->Chris Peters 7 Sep 2012
-<br />
->http://code.tutsplus.com/tutorials/3-key-software-principles-you-must-understand--net-25161
+> Chris Peters 7 Sep 2012 <br />
+> http://code.tutsplus.com/tutorials/3-key-software-principles-you-must-understand--net-25161
 
 <b>Don't Repeat Yourself (DRY)</b>
 <br />
