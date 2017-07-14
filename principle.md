@@ -4,14 +4,21 @@
 >http://code.tutsplus.com/tutorials/3-key-software-principles-you-must-understand--net-25161
 
 <b>Don't Repeat Yourself (DRY)</b>
+<br />
 
 <b>Keep it Simple Stupid (KISS)</b>
- * Single-Responsibility Principle
+ * Single-Responsibility
  * responsibility assignment
  * Separation of concerns (關注點分離)
  * 任務單純化
 
 <b>You aren't gonna need it (YAGNI)</b>
+<br />
+
+<b>loose coupling high cohesion </b> (高內聚低耦合)
+<br />
+
+<b>principle of least surprise</b> (最少意外原則)
 
 <br />
 
