@@ -12,6 +12,14 @@
 
 <br>
 
+### modern web 2017
+
+參與Modern Web 2017研討會的筆記
+
+https://github.com/krmfla/research-lab/blob/master/modern_web_2017.md
+
+<br>
+
 ### Socket.IO
 
 可讓不同瀏覽器或裝置間，互相溝通的程式庫
