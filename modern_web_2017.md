@@ -61,3 +61,27 @@ GraphQL：http://graphql.org/learn/
 
 共筆：https://hackmd.io/KYEwnAbALAzGwFoCGAOAjGBUBG0FgDMoUEAmGAgYwAYIRcQkYg==?view
 
+<br />
+
+## 你知道 Git 是怎麼一回事嗎
+
+> 講者簡報：https://speakerdeck.com/eddie/ni-zhi-dao-git-shi-zen-mo-hui-shi-ma
+
+介紹：http://kaochenlong.com/2017/08/11/git-on-modern-web/
+
+<br />
+
+## Modern Web Architecture Design Journey
+
+> 講者簡報：http://s.itho.me/modernweb/2017/day2/201-K1-Ant.pdf
+
+<br />
+
+## 愛．可曾記得
+
+> https://blog.lalacube.com/mei/Reveal_love_remember.php?page=1
+
+Do some things which makes you happy
+
+* 不斷survey新的技術
+* 制定短期與長期的目標
