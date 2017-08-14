@@ -8,7 +8,7 @@
 
 <br />
 
-**Introducing the Payment Request API**
+Introducing the Payment Request API
 
 https://g.co/paymentRequestAPI
 
@@ -18,15 +18,11 @@ https://g.co/paymentRequestAPI
 
 > 講者簡報：https://www.slideshare.net/mobile/tomomi/future-of-the-web-with-conversational-interface
 
-**API.ai**
-
-https://api.ai/
+API.ai：https://api.ai/
 
 <br />
 
-**Web Speech API**
-
-https://developer.mozilla.org/en-US/docs/Web/API/Web_Speech_API
+Web Speech API：https://developer.mozilla.org/en-US/docs/Web/API/Web_Speech_API
 
 <br />
 
@@ -40,13 +36,11 @@ https://developer.mozilla.org/en-US/docs/Web/API/Web_Speech_API
 
 > 講者簡報：https://speakerdeck.com/zetavg/graphql-and-relay-nil-chuan-qi-qian-hou-duan-shi-jie-de-qiao-liang
 
-**GraphQL**
+GraphQL：http://graphql.org/learn/
 
-http://graphql.org/learn/
+<br />
 
-<b>歡樂動手玩</b>
-
-https://developer.github.com/v4/explorer/
+歡樂動手玩：https://developer.github.com/v4/explorer/
 
 <br />
 
@@ -60,10 +54,10 @@ https://developer.github.com/v4/explorer/
 
 <br />
 
-
-
-
-
-
 ## PWA (Progressive Web Apps)
+
+### Progressive Web Apps & Web Performance
+> 講者簡報：http://s.itho.me/modernweb/2017/day1/101-4-CodinCat.pdf
+
+共筆：https://hackmd.io/KYEwnAbALAzGwFoCGAOAjGBUBG0FgDMoUEAmGAgYwAYIRcQkYg==?view
 
