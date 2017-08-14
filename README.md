@@ -4,11 +4,11 @@
 
 參與Modern Web 2016研討會的筆記
 
->https://github.com/krmfla/research-lab/blob/master/modern-web.md
+> 筆記：https://github.com/krmfla/research-lab/blob/master/modern-web.md
 
->http://slides.com/krmfla/deck-1/fullscreen
+>Slide1：http://slides.com/krmfla/deck-1/fullscreen
 
->http://slides.com/krmfla/i13n/fullscreen
+>Slide2：http://slides.com/krmfla/i13n/fullscreen
 
 <br>
 
@@ -16,7 +16,7 @@
 
 參與Modern Web 2017研討會的筆記
 
-https://github.com/krmfla/research-lab/blob/master/modern_web_2017.md
+> 筆記：https://github.com/krmfla/research-lab/blob/master/modern_web_2017.md
 
 <br>
 
