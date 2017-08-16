@@ -65,6 +65,12 @@ $ git pull upstream master
 
 <br>
 
+```
+$ git add YOUR_FILE
+$ git commit -m "COMMIT DESCRIPTION"
+
+```
+
 
 
 
