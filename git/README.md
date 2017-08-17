@@ -86,6 +86,13 @@ $ git push origin <branch_name>
 
 <br>
 
+### 查看歷史提交記錄
+```
+git log
+```
+
+<br>
+
 ### 刪除提交
 ```
 $ git reset --hard HEAD~
