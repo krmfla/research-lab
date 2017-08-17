@@ -88,7 +88,7 @@ $ git push origin <branch_name>
 
 ### 查看歷史提交記錄
 ```
-git log
+$ git log
 ```
 
 <br>
