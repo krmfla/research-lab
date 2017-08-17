@@ -28,7 +28,7 @@ upstream https://github.com/otheruser/repo.git (push)
 ```
 <br>
 
-### 分支顯示、新增與切換
+### 分支顯示、新增、切換與刪除
 ```
 $ git branch
 
@@ -48,6 +48,11 @@ $ git branch
 
 * feature/test
   master
+  
+$ git branch -d feature/test
+$ git branch -D feature/test (強制)
+
+* master
 ```
 <br>
 
