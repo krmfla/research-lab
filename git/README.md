@@ -56,6 +56,13 @@ $ git branch -D feature/test (強制)
 ```
 <br>
 
+### 刪除遠端儲存庫
+```
+$ git push origin --delete <branch_name>
+```
+
+<br>
+
 ### 同步遠端伺服器上的資料到本地
 ```
 $ git fetch origin
@@ -70,10 +77,20 @@ $ git pull upstream master
 
 <br>
 
+### 提交檔案
 ```
-$ git add YOUR_FILE
+$ git add <your_files>
 $ git commit -m "COMMIT DESCRIPTION"
+$ git push origin <branch_name>
+```
 
+<br>
+
+### 刪除提交
+```
+$ git reset --hard HEAD~
+$ git reset --hard HEAD~~
+$ git reset --hard HEAD~3
 ```
 
 
