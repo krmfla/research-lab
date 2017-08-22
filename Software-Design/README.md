@@ -2,16 +2,16 @@
 
 <br>
 
-## Software Design Principles
+## Design Principles
 
 SOLID
 
 <br>
 
-## Architectural Pattern
+## Architectural Patterns
 
 <br>
 
-## Design Pattern
+## Design Patterns
 
 <br>
