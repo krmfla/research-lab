@@ -1,13 +1,11 @@
-# Software Design Patterns
+# Architectural Pattern | 架構模式
 
 <br>
 
-## MVC
+## MVC | Model–View–Controller
 
 <br>
 
-## MVVM
+## MVVM | Model–View–ViewModel
 
 <br>
-
-Principle : SOLID
