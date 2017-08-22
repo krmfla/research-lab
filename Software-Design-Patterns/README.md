@@ -1,11 +1,13 @@
 # Software Design Patterns
 
-<br />
+<br>
 
 ## MVC
 
-<br />
+<br>
 
 ## MVVM
+
+<br>
 
 Principle : SOLID
