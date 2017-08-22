@@ -8,3 +8,4 @@
 
 ## MVVM
 
+Principle : SOLID
