@@ -8,8 +8,18 @@
 
 分層架構
 
+
+Layer              | 分層
+------------------ | -----
+Presentation Layer | 表現層，用戶介面
+Business Layer     | 業務層，業務邏輯
+Persistence Layer  | 持久層，提供數據
+Database Layer     | 資料庫，保存數據
+
+<br>
+
 > reference：
-> 软件架构入门：http://www.ruanyifeng.com/blog/2016/09/software-architecture.html
+> 软件架构入门 - 阮一峰：http://www.ruanyifeng.com/blog/2016/09/software-architecture.html
 
 <br>
 
