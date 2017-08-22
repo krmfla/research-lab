@@ -2,6 +2,15 @@
 
 <br>
 
+## Layered Architecture
+
+分層架構
+
+> reference：
+> 软件架构入门：http://www.ruanyifeng.com/blog/2016/09/software-architecture.html
+
+<br>
+
 ## MVC 
 
 Model–View–Controller
@@ -13,3 +22,4 @@ Model–View–Controller
 Model–View–ViewModel
 
 <br>
+
