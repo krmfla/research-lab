@@ -80,7 +80,7 @@ Samsung smart TV 開發環境
 
 程式設計的建構與思維
 
->https://github.com/krmfla/research-lab/blob/master/Software-Design/README.md
+>https://github.com/krmfla/research-lab/tree/master/Software-Design
 
 <br>
 
