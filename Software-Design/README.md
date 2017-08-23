@@ -10,18 +10,18 @@ https://github.com/krmfla/research-lab/blob/master/Software-Design/design-princi
 
 <br>
 
-## Architectural Patterns
-
-架構模式
-
-https://github.com/krmfla/research-lab/blob/master/Software-Design/architectural-patterns.md
-
-<br>
-
 ## Design Patterns
 
 設計模式
 
 https://github.com/krmfla/research-lab/blob/master/Software-Design/design-patterns.md
+
+<br>
+
+## Architectural Patterns
+
+架構模式
+
+https://github.com/krmfla/research-lab/blob/master/Software-Design/architectural-patterns.md
 
 <br>
