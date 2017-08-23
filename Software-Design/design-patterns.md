@@ -23,18 +23,18 @@
 ## Singleton
 單體模式
 
-讓class只有唯一一個實體。
+同一class只有唯一一個實體。
 
 ```javascript
-var singleton = function( fn ){
+var singleton = function(fn){
   var result;
   return function(){
-    return result || ( result = fn .apply( this, arguments ) );
+    return result || (result = fn .apply(this, arguments));
   };
 };
  
-var createMask = singleton( function(){
-  return document.body.appendChild( document.createElement('div') );
+var createMask = singleton(function(){
+  return document.body.appendChild(document.createElement('div'));
 });
 ```
 
