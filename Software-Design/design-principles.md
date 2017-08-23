@@ -11,7 +11,8 @@
 > http://code.tutsplus.com/tutorials/3-key-software-principles-you-must-understand--net-25161
 
 <b>Don't Repeat Yourself (DRY)</b>
-<br />
+
+<br>
 
 <b>Keep it Simple Stupid (KISS)</b>
  * Single-Responsibility
@@ -20,20 +21,26 @@
  * 任務單純化
 
 <b>You aren't gonna need it (YAGNI)</b>
-<br />
+
+<br>
 
 <b>loose coupling high cohesion </b> (高內聚低耦合)
-<br />
+
+<br>
 
 <b>principle of least surprise</b> (最少意外原則)
 
-<br />
+<br>
+
+## SOLID
+
+<br>
 
 ## Refactoring - 程式重構
 > Teddy Chen 2014/4/7<br />
 > http://teddy-chen-tw.blogspot.tw/2014/04/refactoring.html
 
-<br />
+<br>
 
 ## Unix哲學 (Unix philosophy)
  * 程式應該只關注一個目標，並儘可能把它做好。<br> Write programs that do one thing and do it well.
