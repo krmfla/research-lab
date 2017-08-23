@@ -45,7 +45,8 @@ Database Layer     | 資料庫，保存數據
 
 <br>
 
-> reference：软件架构入门 - 阮一峰<br>
+### reference
+> 软件架构入门 - 阮一峰：<br>
 > http://www.ruanyifeng.com/blog/2016/09/software-architecture.html
 
 <br>
