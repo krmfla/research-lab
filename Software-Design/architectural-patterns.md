@@ -18,8 +18,32 @@ Database Layer     | 資料庫，保存數據
 
 <br>
 
+## Event-Driven Architecture
+
+事件驅動架構
+
+<br>
+
+## Microkernel Architecture
+
+微核架構
+
+<br>
+
+## Microservices Architecture
+
+微服務架構
+
+<br>
+
+## Cloud Architecture
+
+雲架構
+
+<br>
+
 > reference：
-> 软件架构入门 - 阮一峰：http://www.ruanyifeng.com/blog/2016/09/software-architecture.html
+> 软件架构入门 - 阮一峰：<br>http://www.ruanyifeng.com/blog/2016/09/software-architecture.html
 
 <br>
 
