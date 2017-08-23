@@ -76,11 +76,11 @@ Samsung smart TV 開發環境
 
 <br>
 
-### 程式建構原則
+### 軟體設計
 
-在程式建構上的一些思維
+程式設計的建構與思維
 
->https://github.com/krmfla/research-lab/blob/master/principle.md
+>https://github.com/krmfla/research-lab/blob/master/Software-Design/README.md
 
 <br>
 
