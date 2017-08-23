@@ -37,6 +37,7 @@ var createMask = singleton(function(){
   return document.body.appendChild(document.createElement('div'));
 });
 ```
+> JavaScript Design Pattern - Singleton 單體模式<br>http://cythilya.blogspot.tw/2015/06/javascript-design-pattern-singleton.html
 
 > 常用的Javascript设计模式 http://blog.jobbole.com/29454/
 
