@@ -26,6 +26,41 @@
 同一class只有唯一一個實體。
 
 ```javascript
+var Universe;
+
+(function() {
+  var instance;
+
+  Universe = function Universe() {
+    if (instance) {
+      return instance;
+    }
+    instance = this;
+
+    this.start_time = 0;
+    this.bang = "big";
+  };
+})();
+
+var uni1 = new Universe();
+var uni2 = new Universe();
+
+console.log(uni1 === uni2); //true
+
+Universe.prototype.nothing = true;
+var uni3 = new Universe();
+
+console.log(uni1.nothing); // true
+```
+
+<br>
+
+### Bridge Pattern | 橋接模式
+
+將實現部分與抽象部分分離， 使兩者可以獨立地變化
+
+```javascript
+//用橋接模式來實作單體模式
 var singleton = function(fn){
   var result;
   return function(){
@@ -36,8 +71,15 @@ var singleton = function(fn){
 var createMask = singleton(function(){
   return document.body.appendChild(document.createElement('div'));
 });
+
+createMask(); // create element
+createMask(); // will return instance
+
+var createMask2 = singleton(function(){
+  return document.body.appendChild(document.createElement('div'));
+});
+createMask2(); // create element, 與 createMask各自獨立
 ```
-> JavaScript Design Pattern - Singleton 單體模式<br>http://cythilya.blogspot.tw/2015/06/javascript-design-pattern-singleton.html
 
 > 常用的Javascript设计模式 http://blog.jobbole.com/29454/
 
