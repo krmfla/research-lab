@@ -81,7 +81,7 @@ var createMask2 = singleton(function(){
 createMask2(); // create element, 與 createMask各自獨立
 ```
 
-> 常用的Javascript设计模式 http://blog.jobbole.com/29454/
+
 
 <br>
 
@@ -124,6 +124,15 @@ createMask2(); // create element, 與 createMask各自獨立
 ## Observer
 觀察者模式
 
+<br>
+
+# Reference
+
+> Javascript Design Patterns：https://addyosmani.com/resources/essentialjsdesignpatterns/book/
+
+> 設計模式：https://cythilya.github.io/tags/%E8%A8%AD%E8%A8%88%E6%A8%A1%E5%BC%8F/
+
+> 常用的Javascript设计模式： http://blog.jobbole.com/29454/
 
 
 
