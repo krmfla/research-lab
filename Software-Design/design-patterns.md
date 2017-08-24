@@ -78,7 +78,7 @@ createMask(); // will return instance
 var createMask2 = singleton(function(){
   return document.body.appendChild(document.createElement('div'));
 });
-createMask2(); // create element, 與 createMask各自獨立
+createMask2(); // create element, 與 createMask 各自獨立
 ```
 
 
