@@ -112,7 +112,7 @@ AnimalMaker.create = function(type) {
     };
   }
 
-  //讓他繼承父建構式，但僅此一次
+  //繼承父建構式，但僅此一次
   if (typeof AnimalMaker[conStr].prototype.walk !== "function") {
     AnimalMaker[conStr].prototype = new AnimalMaker();
   }
@@ -122,7 +122,7 @@ AnimalMaker.create = function(type) {
   return newAnimal;
 };
 
-//定義具體的 animal maker
+//定義不同的子對象
 AnimalMaker.dog = function() {
   this.legs = 4;
 };
