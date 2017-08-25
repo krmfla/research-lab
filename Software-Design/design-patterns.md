@@ -90,6 +90,15 @@ createMask2(); // create element, 與 createMask 各自獨立
 
 透過class來建立物件，且無須先知道明確的型別。
 
+```javascript
+function AnimalMaker() {}
+
+AnimalMaker.prototype.walk = function() {
+  return this.name + " walks on " + this.legs + " legs";
+}
+//to be continue
+```
+
 <br>
 
 ## Iterator
