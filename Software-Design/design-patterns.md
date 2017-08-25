@@ -86,8 +86,9 @@ createMask2(); // create element, 與 createMask 各自獨立
 <br>
 
 ## Factory
-
 工廠模式
+
+透過class來建立物件，且無須先知道明確的型別。
 
 <br>
 
