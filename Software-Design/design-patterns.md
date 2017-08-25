@@ -91,12 +91,51 @@ createMask2(); // create element, 與 createMask 各自獨立
 透過class來建立物件，且無須先知道明確的型別。
 
 ```javascript
+//父建構式
 function AnimalMaker() {}
 
+//父建構式的一個方法
 AnimalMaker.prototype.walk = function() {
-  return this.name + " walks on " + this.legs + " legs";
+  return " walks on " + this.legs + " legs";
 }
-//to be continue
+
+//靜態的 create 方法
+AnimalMaker.create = function(type) {
+  var conStr = type,
+    newAnimal;
+
+  //若建構式不存在則拋出錯誤
+  if (typeof AnimalMaker[conStr] !== "function") {
+    throw {
+      name: "Error",
+      message: conStr + " doesn't exist"
+    };
+  }
+
+  //讓他繼承父建構式，但僅此一次
+  if (typeof AnimalMaker[conStr].prototype.walk !== "function") {
+    AnimalMaker[conStr].prototype = new AnimalMaker();
+  }
+
+  //建立新實體
+  newAnimal = new AnimalMaker[conStr]();
+  return newAnimal;
+};
+
+//定義具體的 animal maker
+AnimalMaker.dog = function() {
+  this.legs = 4;
+};
+
+AnimalMaker.monkey = function() {
+  this.legs = 2;
+};
+
+var whiteDog = AnimalMaker.create("dog");
+var littleMonkey = AnimalMaker.create("monkey");
+
+whiteDog.walk();     // walks on 4 legs
+littleMonkey.walk(); // walks on 2 legs
 ```
 
 <br>
