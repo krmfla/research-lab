@@ -186,6 +186,133 @@ console.log(agg.current()); //1
 ## Decorator
 裝飾者模式
 
+讓物件可動態增加功能，客制化不同需求的功能
+
+方法一：
+```javascript
+function Sale(price) {
+  this.price = price || 100;
+}
+
+Sale.prototype.getPrice = function() {
+  return this.price;
+};
+
+Sale.prototype.decorate = function(decorator) {
+  var F = function() {};
+  var overrides = this.constructor.decorators[decorator];
+  var i;
+  var newObj;
+
+  F.prototype = this;
+  newObj = new F();
+  newObj.uber = F.prototype; //讓子物件可以存取父物件
+  for (i in overrides) {
+    if (overrides.hasOwnProperty(i)) {
+      newObj[i] = overrides[i];
+    }
+  }
+  return newObj;
+};
+
+Sale.decorators = {};
+
+Sale.decorators.fedtax = {
+  getPrice: function() {
+    var price = this.uber.getPrice();
+    price += price * 5 / 100;
+    return price;
+  }
+};
+
+Sale.decorators.quebec = {
+  getPrice: function() {
+    var price = this.uber.getPrice();
+    price += price * 7.5 / 100;
+    return price;
+  }
+};
+
+Sale.decorators.money = {
+  getPrice: function() {
+    return "$" + this.uber.getPrice().toFixed(2);
+  }
+};
+
+Sale.decorators.cdn = {
+  getPrice: function() {
+    return "CDN$" + this.uber.getPrice().toFixed(2);
+  }
+};
+
+
+
+var sale = new Sale(100);
+sale = sale.decorate('fedtax');
+sale = sale.decorate('quebec');
+sale = sale.decorate('money');
+console.log(sale.getPrice()); //$112.88
+
+var sale2 = new Sale(150);
+sale2 = sale2.decorate('quebec').decorate('cdn');
+console.log(sale2.getPrice()); //CDN$161.25
+```
+
+<br>
+
+方法二：
+```javascript
+function Sale(price) {
+	this.price = price || 100;
+  this.decorators_list = [];
+}
+
+Sale.decorators = {};
+
+Sale.decorators.fedtax = {
+	getPrice: function(price) {
+    return price += price * 5 / 100;
+  }
+};
+
+Sale.decorators.quebec = {
+	getPrice: function(price) {
+  	return price += price * 7.5 / 100;
+  }
+};
+
+Sale.decorators.money = {
+	getPrice: function(price) {
+  	return "$" + price.toFixed(2);
+  }
+};
+
+Sale.prototype.decorate = function(decorator) {
+	this.decorators_list.push(decorator);
+};
+
+Sale.prototype.getPrice = function() {
+	var price = this.price;
+  var i;
+  var max = this.decorators_list.length;
+  var name;
+  for (i = 0; i < max; i++) {
+  	name = this.decorators_list[i];
+    price = Sale.decorators[name].getPrice(price);
+  }
+  return price;
+};
+
+
+var sale = new Sale(100);
+
+sale.decorate('fedtax');
+sale.decorate('quebec');
+sale.decorate('money');
+
+console.log(sale.getPrice()); //$112.88
+```
+
 <br>
 
 ## Strategy
