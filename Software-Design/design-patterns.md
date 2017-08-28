@@ -143,6 +143,8 @@ littleChicken.walk(); // walks on 2 legs
 ## Iterator
 迭代器模式
 
+提供簡單的操作介面，而不會暴露資料來源或被更動。
+
 ```javascript
 var agg = (function() {
   var index = 0;
