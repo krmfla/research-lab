@@ -127,21 +127,57 @@ AnimalMaker.dog = function() {
   this.legs = 4;
 };
 
-AnimalMaker.monkey = function() {
+AnimalMaker.chicken = function() {
   this.legs = 2;
 };
 
 var whiteDog = AnimalMaker.create("dog");
-var littleMonkey = AnimalMaker.create("monkey");
+var littleChicken = AnimalMaker.create("chicken");
 
 whiteDog.walk();     // walks on 4 legs
-littleMonkey.walk(); // walks on 2 legs
+littleChicken.walk(); // walks on 2 legs
 ```
 
 <br>
 
 ## Iterator
 迭代器模式
+
+```javascript
+var agg = (function() {
+  var index = 0;
+  var data = [1, 2, 3, 4, 5];
+  var length = data.length;
+
+  return {
+    next: function() {
+      var element;
+      if (!this.hasNext()) {
+        return null;
+      }
+      element = data[index];
+      index += 1;
+      return element;
+    },
+    hasNext: function() {
+      return index < length;
+    },
+    reWind: function() {
+      index = 0;
+    },
+    current: function() {
+      return data[index];
+    }
+  }
+})();
+
+while (agg.hasNext()) {
+  console.log(agg.next()); //1, 2, 3, 4, 5
+}
+
+agg.reWind();
+console.log(agg.current()); //1
+```
 
 <br>
 
