@@ -188,7 +188,7 @@ console.log(agg.current()); //1
 
 讓物件可動態增加功能，客制化不同需求的功能
 
-方法一：
+方法一：(繼承)
 ```javascript
 function Sale(price) {
   this.price = price || 100;
