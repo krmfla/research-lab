@@ -263,41 +263,41 @@ console.log(sale2.getPrice()); //CDN$161.25
 方法二：
 ```javascript
 function Sale(price) {
-	this.price = price || 100;
+  this.price = price || 100;
   this.decorators_list = [];
 }
 
 Sale.decorators = {};
 
 Sale.decorators.fedtax = {
-	getPrice: function(price) {
+  getPrice: function(price) {
     return price += price * 5 / 100;
   }
 };
 
 Sale.decorators.quebec = {
-	getPrice: function(price) {
-  	return price += price * 7.5 / 100;
+  getPrice: function(price) {
+    return price += price * 7.5 / 100;
   }
 };
 
 Sale.decorators.money = {
-	getPrice: function(price) {
-  	return "$" + price.toFixed(2);
+  getPrice: function(price) {
+    return "$" + price.toFixed(2);
   }
 };
 
 Sale.prototype.decorate = function(decorator) {
-	this.decorators_list.push(decorator);
+  this.decorators_list.push(decorator);
 };
 
 Sale.prototype.getPrice = function() {
-	var price = this.price;
+  var price = this.price;
   var i;
   var max = this.decorators_list.length;
   var name;
   for (i = 0; i < max; i++) {
-  	name = this.decorators_list[i];
+    name = this.decorators_list[i];
     price = Sale.decorators[name].getPrice(price);
   }
   return price;
