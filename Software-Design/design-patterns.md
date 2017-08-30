@@ -396,6 +396,8 @@ if (validator.hasErrors()) {
 }
 ```
 
+若有複數條件，如何設計?
+
 <br>
 
 ## Facade
