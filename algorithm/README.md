@@ -77,6 +77,12 @@ http://blog.techbridge.cc/2017/08/19/sotring-algorithm/
 
 <br>
 
+用 JavaScript 學習資料結構和演算法：字典（Dictionary）和雜湊表（Hash Table）篇
+
+http://blog.techbridge.cc/2017/03/10/javascript-data-structure-algorithm-dictionary-hash-table/
+
+<br>
+
 視覺化演算法
 
 https://visualgo.net/en
