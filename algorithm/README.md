@@ -8,6 +8,36 @@
 
 <br>
 
+### Selection Sort
+選擇排序法
+
+<br>
+
+### Bubble Sort
+泡沫排序法
+
+<br>
+
+### Insertion Sort
+插入排序法
+
+<br>
+
+### Merge Sort
+合併排序法
+
+<br>
+
+### Quick Sort
+快速排序法
+
+<br>
+
+### Heap Sort
+堆排序
+
+<br>
+
 ## Search
 搜尋
 
