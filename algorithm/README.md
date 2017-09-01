@@ -38,3 +38,15 @@ Message-Digest Algorithm
 前端軟體工程工具箱：Algorithm 篇
 
 http://blog.kdchang.cc/2016/10/08/front-end-engineer-toolbox-algorithm/
+
+<br>
+
+一起用 JavaScript 來複習經典排序法吧！
+
+http://blog.techbridge.cc/2017/08/19/sotring-algorithm/
+
+<br>
+
+視覺化演算法
+
+https://visualgo.net/en
