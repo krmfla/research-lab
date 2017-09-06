@@ -36,21 +36,21 @@
 ## SOLID
 物件導向設計原則
 
-### Single responsibility principle
+### ``S`` Single responsibility principle
 單一功能原則
 
 一個class只做一件事
 
 <br>
 
-### Open/closed principle
+### ``O`` Open/closed principle
 開放封閉原則
 
 軟體設計要容易擴充功能，擴充時不必修改原有的程式
 
 <br>
 
-### Liskov substitution principle
+### ``L`` Liskov substitution principle
 里氏替換原則
 
 子類必須能夠替換其父類別？
@@ -58,14 +58,14 @@
 
 <br>
 
-### Interface segregation principle
+### ``I`` Interface segregation principle
 接口隔離原則
 
 多個特定客戶端接口要好於一個寬泛用途的接口
 
 <br>
 
-### Dependency inversion principle
+### ``D`` Dependency inversion principle
 依賴反轉原則
 
 一個方法應該遵從「依賴於抽象而不是一個實例」的概念
