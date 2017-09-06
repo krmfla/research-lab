@@ -33,12 +33,43 @@
 <br>
 
 ## SOLID
+物件導向設計原則
+
+### Single responsibility principle
+單一功能原則
+
+一個class只做一件事
 
 <br>
 
-## Refactoring - 程式重構
-> Teddy Chen 2014/4/7<br />
-> http://teddy-chen-tw.blogspot.tw/2014/04/refactoring.html
+### Open/closed principle
+開放封閉原則
+
+軟體設計要容易擴充功能，擴充時不必修改原有的程式
+
+<br>
+
+### Liskov substitution principle
+里氏替換原則
+
+子類必須能夠替換其父類別？
+設計父類別時，只把所有的子類都有的東西放進來？
+
+<br>
+
+### Interface segregation principle
+接口隔離原則
+
+多個特定客戶端接口要好於一個寬泛用途的接口
+
+<br>
+
+### Dependency inversion principle
+依賴反轉原則
+
+一個方法應該遵從「依賴於抽象而不是一個實例」的概念
+
+依賴注入是該原則的一種實現方式。
 
 <br>
 
@@ -52,3 +83,9 @@
 * 無權限
 * 失敗時(error / connected fail)
 * 有資料無內容
+
+　<br>
+ 
+白話- OO設計原則 (SOLID原則) - 附生活實例
+ 
+ http://rockssdlog.blogspot.tw/2012/03/oo-solid.html
