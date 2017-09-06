@@ -31,6 +31,7 @@
 <b>principle of least surprise</b> (最少意外原則)
 
 <br>
+<br>
 
 ## SOLID
 物件導向設計原則
@@ -72,6 +73,7 @@
 依賴注入是該原則的一種實現方式。
 
 <br>
+<br>
 
 ## Unix哲學 (Unix philosophy)
  * 程式應該只關注一個目標，並儘可能把它做好。<br> Write programs that do one thing and do it well.
@@ -84,8 +86,9 @@
 * 失敗時(error / connected fail)
 * 有資料無內容
 
-　<br>
+<br>
+<br>
  
 白話- OO設計原則 (SOLID原則) - 附生活實例
  
- http://rockssdlog.blogspot.tw/2012/03/oo-solid.html
+http://rockssdlog.blogspot.tw/2012/03/oo-solid.html
