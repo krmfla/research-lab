@@ -92,3 +92,7 @@
 白話- OO設計原則 (SOLID原則) - 附生活實例
  
 http://rockssdlog.blogspot.tw/2012/03/oo-solid.html
+
+Programming Principles
+
+http://webpro.github.io/programming-principles/?utm_campaign=CodeTengu&utm_medium=web&utm_source=CodeTengu_68
