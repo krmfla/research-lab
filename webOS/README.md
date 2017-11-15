@@ -115,3 +115,6 @@ http://webostv.developer.lge.com/develop/app-developer-guide/app-packaging-guide
  
 ## submit App to LG seller Lounge
 http://seller.lgappstv.com/seller/main/Main.lge
+
+## LG Content Store
+http://tw.lgappstv.com/appspc/main/main/main.lge?lang=chit_TW
