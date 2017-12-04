@@ -9511,7 +9511,9 @@
 
         ajaxPrefilter: addToPrefiltersOrTransports(prefilters),
         ajaxTransport: addToPrefiltersOrTransports(transports),
-
+	    
+// === Show me AJAX Magic ===
+	
         // Main method
         ajax: function(url, options) {
 
@@ -9950,6 +9952,8 @@
             return jQuery.get(url, undefined, callback, "script");
         }
     });
+	
+// === End AJAX Magic ===
 
     jQuery.each(["get", "post"], function(i, method) {
         jQuery[method] = function(url, data, callback, type) {
