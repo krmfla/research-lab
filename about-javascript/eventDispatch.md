@@ -8,11 +8,15 @@
 
 Sample: https://jsfiddle.net/krmfla/w8nr653w/4/
 
+<br />
+
 ### event.stopImmediatePropagation()
 
 > Prevents other listeners of the same event from being called.
 
 停止事件繼續捕捉或冒泡傳遞，也阻止事件被傳入同元素中註冊的其它相同事件類型之監聽器。
+
+<br />
 
 ### event.preventDefault()
 
@@ -20,6 +24,7 @@ Sample: https://jsfiddle.net/krmfla/w8nr653w/4/
 
 如果事件可以被取消，就取消事件的預設行為。但事件仍會繼續傳遞。
 
+<br />
 
 ### target.addEventListener(type, listener, ``useCapture``)
 
@@ -27,6 +32,7 @@ false (default): event bubbling | 向上傳遞
 
 true: event capture | 向下傳遞
 
+<br />
 
 ### Reference
 
