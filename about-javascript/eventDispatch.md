@@ -23,6 +23,11 @@ Sample: https://jsfiddle.net/krmfla/w8nr653w/4/
 
 ### target.addEventListener(type, listener, ``useCapture``)
 
+false (default): event bubbling | 向上傳遞
+
+true: event capture | 向下傳遞
+
+
 ### Reference
 
 **What's the difference between event.stopPropagation and event.preventDefault?**
