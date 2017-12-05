@@ -4,9 +4,11 @@
 
 ## 對稱式加密 
 
-**AES - 進階加密標準**
+### AES - 進階加密標準
 
 Advanced Encryption Standard
+
+<br />
 
 需要雙方都持有同樣的 Key 才能夠加密、解密。
 
@@ -16,9 +18,11 @@ Advanced Encryption Standard
 
 ## 非對稱式加密 
 
-**RSA加密演算法**
+### RSA加密演算法
 
 (發明的三人姓氏開頭拼在一起)
+
+<br />
 
 加密與解密時可以使用不同的鑰匙（key）。
 
