@@ -19,5 +19,6 @@
 
 使用上會比Boolean()還要簡單，速度也比較快
 
-使用雙驚嘆號 !! 的寫程式技巧
-> reference: http://tom76kimo.blogspot.tw/2013/08/blog-post_22.html
+reference:
+
+> 使用雙驚嘆號 !! 的寫程式技巧 http://tom76kimo.blogspot.tw/2013/08/blog-post_22.html
