@@ -29,12 +29,12 @@ var scriptString = "<script type='text/javascript' src='js/someScript.js'></scri
 <br />
 
 **case: 取資料包含換行**
-
 ```html
 <body>
   <div>...</div>
 </body>
 ```
+解法：
 
 ```
 /\<body\>((?:.|\n)*)\<\/body>/g
