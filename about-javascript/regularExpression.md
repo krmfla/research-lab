@@ -46,7 +46,7 @@ var scriptString = "<script type='text/javascript' src='js/someScript.js'></scri
 
 <br />
 
-**reference:**
+### reference:
 
 正規表示式 Regular Expression | 就是愛程式
 
