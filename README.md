@@ -56,7 +56,7 @@
 
 LG smart TV 開發環境
 
->https://github.com/krmfla/research-lab/blob/master/webOS/README.md
+>https://github.com/krmfla/research-lab/blob/master/Platform/WebOS.md
 
 <br>
 
@@ -64,7 +64,7 @@ LG smart TV 開發環境
 
 Samsung smart TV 開發環境
 
->https://github.com/krmfla/research-lab/blob/master/TizenOS/README.md
+>https://github.com/krmfla/research-lab/blob/master/Platform/TizenOS.md
 
 <br>
 
@@ -72,7 +72,7 @@ Samsung smart TV 開發環境
 
 用web技術，開發跨平臺的行動裝置應用程式
 
->https://github.com/krmfla/research-lab/blob/master/cordova/README.md
+>https://github.com/krmfla/research-lab/blob/master/Platform/cordova.md
 
 <br>
 
