@@ -100,7 +100,8 @@ $ git reset --hard HEAD~~
 $ git reset --hard HEAD~3
 ```
 
+### reference:
 
+「你知道 Git 是怎麼一回事嗎」
 
-
-
+http://kaochenlong.com/2017/08/11/git-on-modern-web/
