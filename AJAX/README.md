@@ -6,12 +6,30 @@ XML | 可延伸標記式語言
 
 > Extensible Markup Language
 
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<note>
+  <to>Tove</to>
+  <from>Jani</from>
+  <heading>Reminder</heading>
+  <body>Don't forget me this weekend!</body>
+</note>
+```
+
 <br />
 
 # JQuery AJAX
 
 ```javascript
 $.ajax("URL_STRING");
+```
+
+```javascript
+$.ajax({
+  url: "URL_STRING",
+  dataType: "DATATYPE"
+}).done(SUCCESS_CALLBACK)
+  .fail(FAIL_CALLBACK);
 ```
 
 <br />
