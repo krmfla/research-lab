@@ -6,7 +6,83 @@
 
 <br />
 
+## extend
+
+```javascript
+jQuery.fn.extend(OBJECT);
+```
+
+example
+
+```javascript
+jQuery.fn.extend({
+  check: function() {
+    return this.each(function() {
+      this.checked = true;
+    });
+  },
+  uncheck: function() {
+    return this.each(function() {
+      this.checked = false;
+    });
+  }
+});
+```
+
+JQuery 依照功能, 將新增的方法註冊到 Jquery 中,
+
+將相關功能包在 object 區塊內，從而更好閱讀。
+
+
+<br />
+
 ## ready
+
+```javascript
+jQuery.extend({
+    // Is the DOM ready to be used? Set to true once it occurs.
+    isReady: false,
+
+    // A counter to track how many items to wait for before
+    // the ready event fires. See #6781
+    readyWait: 1,
+
+    // Hold (or release) the ready event
+    holdReady: function(hold) {
+        if (hold) {
+            jQuery.readyWait++;
+        } else {
+            jQuery.ready(true);
+        }
+    },
+
+    // Handle when the DOM is ready
+    ready: function(wait) {
+
+        // Abort if there are pending holds or we're already ready
+        if (wait === true ? --jQuery.readyWait : jQuery.isReady) {
+            return;
+        }
+
+        // Remember that the DOM is ready
+        jQuery.isReady = true;
+
+        // If a normal DOM Ready event fired, decrement, and wait if need be
+        if (wait !== true && --jQuery.readyWait > 0) {
+            return;
+        }
+
+        // If there are functions bound, to execute
+        readyList.resolveWith(document, [jQuery]);
+
+        // Trigger any bound ready events
+        if (jQuery.fn.triggerHandler) {
+            jQuery(document).triggerHandler("ready");
+            jQuery(document).off("ready");
+        }
+    }
+});
+```
 
 <br />
 
@@ -14,9 +90,7 @@
 
 <br />
 
-## AJAX
-
-options 用法
+## ajax
 
 ```javascript
 ajax: function(url, options) {
@@ -29,9 +103,10 @@ ajax: function(url, options) {
     options = options || {};
     
 ```
+
 url 可能為字串或物件, 依照 url 的類型，轉換成 options
 
-實際上使用 options
+實際上使用 options，從而統一格式
 
 <br />
 
