@@ -2,6 +2,8 @@
 
 > Asynchronous JavaScript and XML
 
+<br />
+
 XML | 可延伸標記式語言
 
 > Extensible Markup Language
@@ -18,7 +20,24 @@ XML | 可延伸標記式語言
 
 <br />
 
-# JQuery AJAX
+## AJAX
+
+```javascript
+function loadDoc() {
+  var xhttp = new XMLHttpRequest();
+  xhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+     document.getElementById("demo").innerHTML = this.responseText;
+    }
+  };
+  xhttp.open("GET", "ajax_info.txt", true);
+  xhttp.send();
+}
+```
+
+<br />
+
+## JQuery AJAX
 
 ```javascript
 $.ajax("URL_STRING");
@@ -68,4 +87,4 @@ the same-origin policy says that browsers should only allow ajax calls to servic
 
 <br />
 
-# ES6 AJAX
+## ES6 AJAX
