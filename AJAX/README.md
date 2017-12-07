@@ -1,4 +1,10 @@
-# Javascript AJAX
+# AJAX | 非同步的JavaScript與XML技術
+
+> Asynchronous JavaScript and XML
+
+XML | 可延伸標記式語言
+
+> Extensible Markup Language
 
 <br />
 
