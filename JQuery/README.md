@@ -6,6 +6,10 @@
 
 <br />
 
+## ready
+
+<br />
+
 ## addClass
 
 <br />
@@ -47,6 +51,6 @@ s.dataTypes = jQuery.trim(s.dataType || "*").toLowerCase().match(rnotwhite) || [
 
 <br />
 
-reference: 
+**reference:**
 
 jQuery- v1.10.2 源码解读 https://github.com/chokcoco/jQuery-
