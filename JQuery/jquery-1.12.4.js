@@ -3580,10 +3580,12 @@
                 jQuery.ready(true);
             }
         },
-
+// === Ready Method === 
         // Handle when the DOM is ready
         ready: function(wait) {
 
+// jQuery.readyWait: A counter to track how many items to wait for before
+		
             // Abort if there are pending holds or we're already ready
             if (wait === true ? --jQuery.readyWait : jQuery.isReady) {
                 return;
@@ -3606,6 +3608,8 @@
                 jQuery(document).off("ready");
             }
         }
+// === End Ready Method ===
+	    
     });
 
     /**
