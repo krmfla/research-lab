@@ -34,3 +34,11 @@ arr = arr.map(value => value + 1);
 <br />
 
 ## Let, Const, Block-scoped
+
+<br />
+
+**Reference**
+
+[ES6] Javascript 開發者必須知道的 10 個新功能
+
+https://medium.com/@peterchang_82818/es6-10-features-javascript-developer-must-know-98b9782bef44
