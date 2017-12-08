@@ -4,6 +4,12 @@
 
 <br />
 
+## Structure
+
+![banner](https://github.com/krmfla/research-lab/blob/master/images/tizen_structure.png "Tizen Structure")
+
+<br />
+
 ## Player
 
 **AVPlay (Video Play) Sample**
