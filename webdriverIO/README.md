@@ -3,7 +3,11 @@
 
 <br />
 
->初探 WebdriverIO 前端自動化測試: http://blog.mokayo.com/weddriverio-auto-testing/
+**初探 WebdriverIO 前端自動化測試 | alincode**
+
+http://blog.mokayo.com/weddriverio-auto-testing/
+
+<br />
 
 **安裝 WebdriverIO**
 ```
@@ -41,4 +45,7 @@ client
 <br />
 
 **Selecting Elements in WebdriverIO**
->http://blog.kevinlamping.com/selecting-elements-in-webdriverio/
+> http://blog.kevinlamping.com/selecting-elements-in-webdriverio/
+
+**selenium-webdriver**
+> http://seleniumhq.github.io/selenium/docs/api/javascript/index.html
