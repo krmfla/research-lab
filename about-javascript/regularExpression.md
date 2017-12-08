@@ -37,7 +37,7 @@ var scriptString = "<script type='text/javascript' src='js/someScript.js'></scri
 解法：
 
 ```
-\<body.*\>\n((?:.|\n)*?)\<\/body>
+/\<body.*\>\n?((?:.|\n)*?)\<\/body\>/g
 ```
 
 <br />
