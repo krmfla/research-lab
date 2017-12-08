@@ -16,7 +16,7 @@ with observable streams
  * 是表達式，不會是陳述式 <br /> 
 ```javascript
 // 表達式(Expression)一定會有返回值
-add(1,2)
+add(1,2);
 ```
 ```javascript
 //陳述式是表現某個行為，例如賦值給一個變數
