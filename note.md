@@ -6,11 +6,22 @@ Secure Shell
   
 # markdown syntax
 
-**keyboard key**  
+**keyboard key**
+
 <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>I</kbd> 
 
 ```
 <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>I</kbd> 
+```
+
+<br />
+
+**Link**
+
+[LINK_TEXT](LINK_URL)
+
+```
+[LINK_TEXT](LINK_URL)
 ```
 
 <br />
