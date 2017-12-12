@@ -52,3 +52,17 @@ https://lepture.com/zh/2015/fe-microdata
 (IE不支援)
 
 https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch
+
+<br />
+
+# nohup
+
+no-hup，hup指的是SIGHUP（hangup)這個信號，nohup就是忽略SIGHUP這個信號的意思。
+
+當我們從一個連線登出的時候，每個process都會收到一個SIGHUP信號，透過nohup所下達的命令就可以不受影響，繼續執行。
+
+& 為背景執行
+
+```
+$ nohup your_command &
+```
