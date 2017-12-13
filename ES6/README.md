@@ -37,6 +37,17 @@ arr = arr.map(value => value + 1);
 
 <br />
 
+## Object Literal Extension | 物件實字的擴展
+
+```javascript
+let myPhone = "HTC";
+let obj = { myPhone };
+// 意即 let obj = { myPhone: myPhone };
+// 意即 let obj = { myPhone: "HTC" };
+```
+
+<br />
+
 **Reference**
 
 [ES6] Javascript 開發者必須知道的 10 個新功能
