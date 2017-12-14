@@ -26,6 +26,16 @@ Secure Shell
 
 <br />
 
+**image**
+
+![firebase](https://github.com/krmfla/research-lab/blob/master/images/firebase.png)
+
+```
+![firebase](IMAGE_URL)
+```
+
+<br />
+
 # Stack and Queue | 堆疊與佇列
 > abstract data type | 抽象資料型別
 
