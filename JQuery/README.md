@@ -188,6 +188,10 @@ s.dataTypes = jQuery.trim(s.dataType || "*").toLowerCase().match(rnotwhite) || [
 
 <br />
 
+# then
+
+then 是怎麼做到的? callback?
+
 **reference:**
 
 jQuery- v1.10.2 源码解读 https://github.com/chokcoco/jQuery-
