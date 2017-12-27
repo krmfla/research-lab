@@ -82,6 +82,8 @@ https.createServer(SERVER_CONFIG, app)
 );
 ```
 
-## 用 nodeJS 寫一隻爬蟲, 尋找有趣的活動, 並將結果寄到 e-mail
+## Practice
+
+**用 nodeJS 寫一隻爬蟲, 尋找有趣的活動, 並將結果寄到 e-mail**
 
 <br />
