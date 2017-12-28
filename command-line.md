@@ -27,3 +27,13 @@ $rm -rf app
 ```
 
 <br />
+
+## Copy
+
+cp (copy)
+
+```
+$ cp ORIGIN_FILE TARGET_FOLDER
+
+$ cp app.js /app2/src/
+```
