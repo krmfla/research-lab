@@ -6,7 +6,13 @@ https://webpack.js.org/
 
 <br />
 
+### loader 懶人包
 
+```
+$ npm install --save-dev babel-loader style-loader css-loader sass-loader less-loader url-loader
+```
+
+<br />
 
 ## AMD / CMD
 
