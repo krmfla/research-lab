@@ -77,11 +77,25 @@ $ git pull upstream master
 
 <br>
 
+**rebase**
+```
+$ git rebase upstream/master
+
+或
+
+$ git rebase origin/master
+```
+
 ### 提交檔案
 ```
 $ git add <your_files>
 $ git commit -m "COMMIT DESCRIPTION"
 $ git push origin <branch_name>
+```
+
+用 rebase 後, 加上 ``-f`` 來強制 push
+```
+$ git push -f origin <branch_name>
 ```
 
 <br>
@@ -98,6 +112,24 @@ $ git log
 $ git reset --hard HEAD~
 $ git reset --hard HEAD~~
 $ git reset --hard HEAD~3
+```
+
+### 將 HEAD 與遠端儲存庫對齊
+```
+$ git reset --hard upstream/master
+```
+
+<br />
+
+### 同步遠端儲存庫後, 提交檔案
+```
+$ git checkout develop
+$ git pull upstream master
+$ git reset --hard upstream/master
+
+$ git add <new_file>
+$ git commit -m "COMMIT DESCRIPTION"
+$ git push origin develop
 ```
 
 ### reference:
