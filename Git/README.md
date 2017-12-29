@@ -129,7 +129,7 @@ $ git reset --hard upstream/master
 
 $ git add <new_file>
 $ git commit -m "COMMIT DESCRIPTION"
-$ git push origin develop
+$ git push -f origin develop
 ```
 
 ### reference:
