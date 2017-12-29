@@ -2,6 +2,16 @@
 
 <br />
 
+## create file
+
+```
+$ touch FILENAME
+
+$ touch app.html
+```
+
+<br />
+
 ## Delete
 
 ### delete file
