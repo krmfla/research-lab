@@ -1,8 +1,4 @@
-# Browser Compatibility
-
-<br />
-
-## Modernizr
+# Modernizr
 
 > Modernizr is a small piece of JavaScript code that automatically detects the availability of next-generation web technologies in your user's browsers. 
 > Rather than blacklisting entire ranges of browsers based on “UA sniffing,” Modernizr uses feature detection to allow you to easily tailor your user's experiences based on the actual capabilities of their browser.
@@ -25,13 +21,27 @@
 
 - [x] Modernizr 文件在說什麼
 
+  * 已讀
+
 - [x] 實際開發上可能遇到的問題
 
-- [x] 設計理念
- 
+   * 遇到瀏覽器不支援新特性時，用 userAgent 判斷
+   
+   * 或是直接捨棄。比如不支援漸層效果，而選擇統一作圖片
+   
+   * 維護成本, maintain
+
 <br />
  
 ### 如何解決
+
+- [x] 設計理念
+
+  * feature detection
+  
+  * 用多少拿多少
+  
+  * 透過 css 自動區分是否支援
  
 - [ ] 他的偵測邏輯是什麼？
 
@@ -48,6 +58,8 @@
 - [x] 公司實際專案的可能應用
 
   * webTV 相容性測試
+  
+  * 程式特性優化
 
 <br />
 
