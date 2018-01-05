@@ -48,6 +48,42 @@ let obj = { myPhone };
 
 <br />
 
+## classes
+
+```javascript
+class Cat {
+  constructor(name) {
+    this.name = name;
+  }
+  speak() {
+    console.log(this.name + " makes a noise.");
+  }
+}
+
+class Lion extends Cat {
+  speak() {
+    super.speak();
+    console.log(this.name + "roars.");
+  }
+}
+
+const kitty = new Cat("kitty");
+kitty.speak();
+// kitty makes a noise.
+
+const leo = new Cat("Leo");
+leo.speak();
+// Leo makes a noise.
+```
+
+<br />
+
+## 剩餘參數
+
+to be done
+
+<br />
+
 **Reference**
 
 [ES6] Javascript 開發者必須知道的 10 個新功能
