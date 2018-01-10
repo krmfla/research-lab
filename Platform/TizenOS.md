@@ -65,4 +65,9 @@ official sample code
 
 https://github.com/SamsungDForum/PlayerAVPlayMultitasking/blob/master/PlayerAVPlayMultitasking/videoPlayer.js
 
+<br />
+
+## Samsung Apps TV Seller Office
+
+http://seller.samsungapps.com/tv/portal/main
 
