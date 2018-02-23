@@ -34,6 +34,20 @@ true: event capture | 向下傳遞
 
 <br />
 
+### keydown 的事件傳遞順序
+
+window
+
+↑
+
+window.document
+
+↑
+
+window.document.body
+
+(冒泡)
+
 ### Reference
 
 **What's the difference between event.stopPropagation and event.preventDefault?**
