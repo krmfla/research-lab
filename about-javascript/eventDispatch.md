@@ -48,6 +48,8 @@ window.document.body
 
 (冒泡)
 
+<br />
+
 ### Reference
 
 **What's the difference between event.stopPropagation and event.preventDefault?**
