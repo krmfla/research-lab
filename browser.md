@@ -30,8 +30,8 @@ location.pathname = `/campaign/index.html`
 ### DNS | 網域名稱系統
 > Domain Name System
 
-域名->IP 轉換
-是分散式資料庫
+* 域名->IP 轉換
+* 是分散式資料庫
 
 www.wikipedia.org  --> DNS --> 208.80.152.2
 
