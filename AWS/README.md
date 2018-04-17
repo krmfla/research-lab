@@ -6,11 +6,15 @@
 ## Amazon EC2
 Amazon virtual machine
 
+運算
+
 <br />
 
 ## Amazon S3
 
 Amazon object storage
+
+儲存空間
 
 <br />
 
