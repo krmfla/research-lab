@@ -4,11 +4,13 @@
 <br />
 
 ## Amazon EC2
-amazon virtual machine
+Amazon virtual machine
 
 <br />
 
 ## Amazon S3
+
+Amazon object storage
 
 <br />
 
