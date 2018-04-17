@@ -1,17 +1,3 @@
-# SSH
-
-Secure Shell
-
-<br />
-
-# RSA
-
-> 一種非對稱加密演算法 (RSA = 開發者字母組成)
-
-用公鑰加密, 私鑰解密
-
-<br />
-
 # markdown syntax
 
 **keyboard key**
