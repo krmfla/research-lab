@@ -4,6 +4,10 @@
 
 > HTTP entity tag
 
+### Cache Control
+
+Cache-Control: max-age=[delta-seconds]
+
 <br />
 
 ## Location
