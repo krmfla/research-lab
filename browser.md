@@ -1,5 +1,9 @@
 # Browser
 
+### ETag | 實體標籤
+
+> HTTP entity tag
+
 <br />
 
 ## Location
@@ -22,6 +26,8 @@ location.host = `www.sample.com:8080`
 location.pathname = `/campaign/index.html`
 
 <br />
+
+# Network
 
 ## Domain Name | 域名
 
