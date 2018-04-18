@@ -32,6 +32,14 @@ Advanced Encryption Standard
 
 <br />
 
+#### 網路安全(1) - 基礎密碼學
+
+> author: @jyt0532
+
+https://blog.techbridge.cc/2017/04/16/simple-cryptography/
+
+<br />
+
 reference: 
 
 https://medium.com/d-d-mag/為什麼你需要懂一點密碼學-709c090452aa
