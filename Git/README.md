@@ -132,6 +132,15 @@ $ git commit -m "COMMIT DESCRIPTION"
 $ git push -f origin develop
 ```
 
+### 從 Git Repository 復原特定檔案
+
+```
+$ git checkout <deleting_commit> <file_path>
+
+// ex:
+$ git checkout 150a9394f4a77ba40b3c54269dfb5ebe43c9053q js/app.js
+```
+
 ### reference:
 
 「你知道 Git 是怎麼一回事嗎」
