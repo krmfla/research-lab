@@ -418,6 +418,143 @@ if (validator.hasErrors()) {
 ## Observer
 觀察者模式
 
+```html
+<button id="addNewObserver">Add New Observer checkbox</button>
+<span> check all<input id="mainCheckbox" type="checkbox" /></span>
+<div id="observersContainer"></div>
+```
+
+```javascript
+// ObserverList
+// 訂閱列表
+function ObserverList(){
+	this.observerList = [];
+}
+
+ObserverList.prototype.add = function(obj){
+	return this.observerList.push(obj);
+};
+
+ObserverList.prototype.count = function(){
+	return this.observerList.length;
+};
+
+ObserverList.prototype.get = function(index){
+	if(index > -1 && index < this.observerList.length){
+  	return this.observerList[index];
+  }
+};
+
+ObserverList.prototype.indexOf = function(obj, startIndex){
+	var i = startIndex;
+  
+  while(i < this.observerList.length) {
+  	if(this.observerList[i] === obj) {
+    	return i;
+    }
+    i++;
+  }
+  return -1;
+};
+
+ObserverList.prototype.removeAt = function(index){
+	this.observerList.splice(index, 1);
+};
+
+// Subject
+// 主題, Subscribe Manager
+function Subject() {
+	this.observers = new ObserverList();
+}
+
+Subject.prototype.addObserver = function(observer) {
+	this.observers.add(observer);
+};
+
+Subject.prototype.removeObserver = function(observer){
+	this.observers.removeAt(this.observers.indexOf(observer, 0));
+};
+
+Subject.prototype.notify = function(context) {
+	var observerCount = this.observers.count();
+  for(var i = 0; i < observerCount; i++) {
+  	this.observers.get(i).update(context);
+  }
+}
+
+// TEST
+Subject.prototype.isSubscribe = function(observer) {
+	return (this.observers.indexOf(observer, 0) > -1 ? true : false);
+}
+
+//The Observer
+function Observer() {
+	// --Default behavior
+	this.update = function(){
+  };
+}
+
+// Extend an object with an extension
+function extend(obj, extension) {
+	for (var key in extension) {
+  	obj[key] = extension[key];
+  }
+}
+
+// References to out DOM elements
+var controlCheckbox = document.getElementById("mainCheckbox");
+var addBtn = document.getElementById("addNewObserver");
+var container = document.getElementById("observersContainer");
+
+// Concrete Subject
+
+// Extend the controlling checkbox with the Subject class
+// --為 checkbox 增添　Subject methods
+extend(controlCheckbox, new Subject());
+
+// Clicking the checkbox will trigger notifications to its observers
+controlCheckbox.onclick = function() {
+	controlCheckbox.notify(controlCheckbox.checked);
+  // 被點擊時，會通知註冊在 observers 內的物件
+  // 將　check all 的　checked 值帶給被註冊的物件
+};
+
+addBtn.onclick = addNewObserver;
+
+// Concrete Observer
+function addNewObserver() {
+	// create a new checkbox to be added
+  var check = document.createElement("input");
+  check.type = "checkbox";
+  
+  // Extend the checkbox with the Observer class
+  extend(check, new Observer());
+  
+  // Override with custom update behavior
+ 	check.update = function(value) {
+    this.checked =  value;
+  };
+  
+  // Add the new observer to our list of observers
+  // for our main subject
+  controlCheckbox.addObserver(check);
+  
+  // Append the item to the container
+  container.appendChild(check);
+  
+  // TEST
+  // Unsubscribe when feel annoying
+  check.feelAnnoying = 0;
+  check.onclick = function() {
+  	if (check.feelAnnoying < 2) {
+    	check.feelAnnoying += 1;
+    } else if(controlCheckbox.isSubscribe(check)) {
+    	controlCheckbox.removeObserver(check);
+    }
+  }
+}
+```
+
 <br>
 
 # Reference
