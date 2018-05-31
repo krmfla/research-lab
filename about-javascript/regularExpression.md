@@ -46,6 +46,15 @@ var scriptString = "<script type='text/javascript' src='js/someScript.js'></scri
 
 <br />
 
+**case: 遮蔽手機號碼的中間數字**
+
+```javascript
+var phone = "0910123456";
+
+phone = phone.replace(/(\d{4})\d{3}(\d{3})/, '$1***$2');
+// phone = 0910***456
+```
+
 ### reference:
 
 正規表示式 Regular Expression | 就是愛程式
