@@ -38,6 +38,13 @@
 
 <br>
 
+### Fisher–Yates shuffle
+洗牌算法
+
+https://gaohaoyang.github.io/2016/10/16/shuffle-algorithm/
+
+<br>
+
 ## Search
 搜尋
 
