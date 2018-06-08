@@ -141,6 +141,19 @@ $ git checkout <deleting_commit> <file_path>
 $ git checkout 150a9394f4a77ba40b3c54269dfb5ebe43c9053q js/app.js
 ```
 
+### remove untracked files
+
+show what will be deleted
+```
+git clean -n
+```
+Clean Step - beware: this will delete files:
+
+delete files
+```
+git clean -f
+```
+
 ### reference:
 
 「你知道 Git 是怎麼一回事嗎」
