@@ -154,6 +154,21 @@ delete files
 git clean -f
 ```
 
+## Generating a SSH key
+
+checking is key exist
+```
+$ ls -al ~/.ssh
+# Lists the files in your .ssh directory, if they exist
+# id_dsa.pub
+```
+
+Generating a new SSH key
+
+```
+ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+```
+
 ### reference:
 
 「你知道 Git 是怎麼一回事嗎」
