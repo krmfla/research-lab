@@ -88,3 +88,8 @@ the same-origin policy says that browsers should only allow ajax calls to servic
 <br />
 
 ## ES6 AJAX
+
+### 待研究
+
+- [ ] AJAX 原理?
+- [ ] headers 的用意
