@@ -169,6 +169,10 @@ Generating a new SSH key
 ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
 ```
 
+### issue
+
+如何解決 failed to push some refs ?
+
 ### reference:
 
 「你知道 Git 是怎麼一回事嗎」
