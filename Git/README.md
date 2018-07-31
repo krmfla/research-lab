@@ -115,6 +115,7 @@ $ git reset --hard HEAD~3
 ```
 
 ### 將 HEAD 與遠端儲存庫對齊
+(!!! 使用前請確認現有的 code 都已儲存)
 ```
 $ git reset --hard upstream/master
 ```
