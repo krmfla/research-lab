@@ -12,3 +12,4 @@
 iOS 政策？(是否開放)
 
 Line Share Webview 不支援
+> getUserMedia() is not supported by default in Android webviews, such as Facebook or Snapchat in-app browsers.
