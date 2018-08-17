@@ -72,7 +72,7 @@ $ git fetch upstream
 ```
 $ git pull upstream master
 
-// 不 增加 merge 後的新節點 
+// 不增加 merge 後的新節點 
 $ git pull upstream master --rebase
 ```
 
