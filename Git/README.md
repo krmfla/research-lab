@@ -178,6 +178,9 @@ ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
 ```
 // 列出本地分支及對應的遠端追蹤分支
 git branch -vv
+
+// 將其他 branch 的 commit 加進來
+git cherry-pick <commit>
 ```
 
 ### issue
