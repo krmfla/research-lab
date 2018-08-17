@@ -173,6 +173,13 @@ Generating a new SSH key
 ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
 ```
 
+### 其他用法
+
+```
+// 列出本地分支及對應的遠端追蹤分支
+git branch -vv
+```
+
 ### issue
 
 **如何解決 failed to push some refs ?**
