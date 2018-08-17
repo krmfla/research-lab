@@ -71,6 +71,9 @@ $ git fetch upstream
 
 ```
 $ git pull upstream master
+
+// 不 增加 merge 後的新節點 
+$ git pull upstream master --rebase
 ```
 
 > git pull = git fetch + merge to local
