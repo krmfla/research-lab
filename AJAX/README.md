@@ -20,6 +20,10 @@ XML | 可延伸標記式語言
 
 <br />
 
+## HTTP Request
+
+<br />
+
 ## AJAX
 
 ```javascript
