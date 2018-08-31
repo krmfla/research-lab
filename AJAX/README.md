@@ -2,7 +2,11 @@
 
 > Asynchronous JavaScript and XML
 
+AJAX 使用 XMLHttpRequest 物件來與伺服器進行通訊
+
 <br />
+
+**what is XML?**
 
 XML | 可延伸標記式語言
 
@@ -92,6 +96,22 @@ the same-origin policy says that browsers should only allow ajax calls to servic
 <br />
 
 ## ES6 AJAX
+
+<br />
+
+## HTTP Status Code
+
+1xx訊息
+
+2xx成功
+
+3xx重新導向
+
+4xx用戶端錯誤
+
+5xx伺服器錯誤
+
+<br />
 
 ### 待研究
 
