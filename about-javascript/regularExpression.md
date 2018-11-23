@@ -55,6 +55,17 @@ phone = phone.replace(/(\d{4})\d{3}(\d{3})/, '$1***$2');
 // phone = 0910***456
 ```
 
+**case: 從字串中取得特定值**
+
+```javascript
+var content = "1234~5678 萬元";
+var reg = /(\d.*)~(\d.*)\s/g;
+var match = reg.exec(content);
+
+console.log(match[1]); // 1234
+console.log(match[2]); // 5678
+```
+
 ### reference:
 
 正規表示式 Regular Expression | 就是愛程式
