@@ -88,6 +88,8 @@ https.createServer(SERVER_CONFIG, app)
 );
 ```
 
+<br>
+
 ## CORS on ExpressJS
 
 ```node
@@ -108,6 +110,7 @@ app.post('/', function(req, res, next) {
 
 *reference: https://enable-cors.org/server_expressjs.html*
 
+<br>
 
 ## Practice
 
