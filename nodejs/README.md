@@ -1,14 +1,28 @@
 # Node.js
 >site: https://nodejs.org/en/
 
+<br />
+  
+## why using node.js?
+
+* chrome V8 引擎讓 javascript 可高效運行
+* 事件驅動 (event-driven)
+* 非阻斷式的輸入/輸出 (non-blocking I/O)
+
+**issue:**
+
+node.js 是單執行緒，非同步處理 I/O?
+
+<br />
+
 ### express
 
 for Node.js 的 Web 應用程式架構
-```
+
+```sh
+# install express
 $ npm install --save express
 ```
-
-<br />
 
 ### fs
 
@@ -19,6 +33,7 @@ for Node.js 的檔案系統模組 (file system)
 ## 用node.js建立web server
 
 server.js
+
 ```node
 var express = require('express');
 var app = express();
