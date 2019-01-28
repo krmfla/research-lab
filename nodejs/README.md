@@ -15,13 +15,21 @@ node.js 是單執行緒，非同步處理 I/O?
 
 <br />
 
-### express
+### Express.js
 
 for Node.js 的 Web 應用程式架構
 
 ```sh
 # install express
 $ npm install --save express
+```
+
+### Express Generator | 快速建置 Express 環境
+
+```sh
+# install express generator
+$ npm install -g express-generator
+$ express -f {專案名稱}
 ```
 
 ### fs
