@@ -38,7 +38,7 @@ Blocking(阻塞): 等待堆疊內的函式執行完，才會處理新的請求�
 
 Task Queue(工作佇列): 當處理非同步函式時，會將此函式的 callback 搬到 webAPIs。當 webAPIs內的函式得到回應時，就會搬到 Task Queue 中等候。
 
-Event Loop: 當 Stack 內是空的，就會將 Task Queue 的內容放到 Stack 內。
+Event Loop(事件循環): 當 Stack 內是空的，就會將 Task Queue 的內容放到 Stack 內。
 
 
 
