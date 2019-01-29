@@ -1,6 +1,7 @@
-## sample code
+## express.js
 
 ```node
+// sample code
 express()
   .use(express.static(path.join(__dirname, 'public')))
   .get('/', (req, res) => {
@@ -23,10 +24,16 @@ express()
 
 ### set
 
-### process
+<br />
+
+## process
 
 **pid**
 Process ID
+
+<br />
+
+## exports
 
 <br />
 
