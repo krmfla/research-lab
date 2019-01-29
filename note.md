@@ -31,7 +31,20 @@
 <br />
 
 # Stack and Queue | 堆疊與佇列
-> abstract data type | 抽象資料型別
+
+Stack(堆疊): 用以執行函式, 依呼叫 (invoke) 順序，進入堆疊。
+
+Blocking(阻塞): 等待堆疊內的函式執行完，才會處理新的請求。
+
+Task Queue(工作佇列): 當處理非同步函式時，會將此函式的 callback 搬到 webAPIs。當 webAPIs內的函式得到回應時，就會搬到 Task Queue 中等候。
+
+Event Loop: 當 Stack 內是空的，就會將 Task Queue 的內容放到 Stack 內。
+
+
+
+reference:  
+[筆記] 理解 JavaScript 中的事件循環、堆疊、佇列和併發模式  
+https://pjchender.blogspot.com/2017/08/javascript-learn-event-loop-stack-queue.html
 
 <br />
 
