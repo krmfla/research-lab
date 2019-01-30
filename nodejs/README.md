@@ -146,11 +146,3 @@ app.post('/', function(req, res, next) {
 ```
 $ node getData.js
 ```
-
-<br />
-
-## Performance
-
-你不知道的Node.js效能優化，讀了之後水平直線上升
-
-https://www.jishuwen.com/d/2JPU/zh-tw
