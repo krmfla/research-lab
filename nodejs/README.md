@@ -9,9 +9,11 @@
 * 事件驅動 (event-driven)
 * 非阻斷式的輸入/輸出 (non-blocking I/O)
 
-**issue:**
+**think:**
 
-node.js 是單執行緒，非同步處理 I/O?
+node.js 是單執行緒，如何非同步處理 I/O?
+
+> 有一個 poll 用來接受 request，透過 event loop 輪詢。
 
 <br />
 
@@ -146,3 +148,9 @@ $ node getData.js
 ```
 
 <br />
+
+## Performance
+
+你不知道的Node.js效能優化，讀了之後水平直線上升
+
+https://www.jishuwen.com/d/2JPU/zh-tw
