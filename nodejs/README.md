@@ -137,6 +137,27 @@ app.post('/', function(req, res, next) {
 
 <br>
 
+## 參數傳遞
+
+body-parser
+```cmd
+$ npm install body-parser
+```
+
+```node
+const express = require('express');
+const bodyParser = require('body-parser');
+
+express()
+  .use(bodyParser.urlencoded({ 
+    extended: true  //允許配置使用 querystring(false) 或 qs(true) 来解析數據
+  }))
+  .use(bodyParser.json())
+  .post("/", function (req, res) {
+    console.log(req.body.user.name)
+  });
+```
+
 ## Practice
 
 **用 nodeJS 寫一隻爬蟲, 尋找有趣的活動, 並將結果寄到 e-mail**
