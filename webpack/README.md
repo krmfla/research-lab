@@ -6,6 +6,36 @@ https://webpack.js.org/
 
 <br />
 
+## yarn
+
+新的 package 管理器
+
+```sh
+$ npm install yarn --g
+$ yarn --version
+
+# 建立新資料夾並初始化專案
+$ yarn init -y
+```
+
+<br />
+
+## install Webpack
+
+```cmd
+$ yarn add -D webpack webpack-node-externals
+
+$ yarn add -D babel-preset-env babel-plugin-transform-object-rest-spread babel-core babel-loader 
+```
+
+<br />
+
+reference:  
+[Day-13] Webpack 與 babel 轉譯  
+https://ithelp.ithome.com.tw/articles/10193299
+
+<br />
+
 ### loader 懶人包
 
 ```
