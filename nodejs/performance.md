@@ -4,6 +4,14 @@
 
 ## 調整記憶體
 
+``--max-old-space-size`` 可以限制V8里面的 old space 的最大值  
+
+``--max-semi-space-size`` 能限制 new space 里面的 from 或者 to 空间的最大值  
+
+``--noincremental_marking`` 是不使用增量markingGC算法的意思，开了这个选项会让 old space 内存到达最大值的时候才进行一次full gc  
+
+``--trace-gc`` 能看到V8的gc日志  
+
 ```cmd
 $ node --max-semi-space-size=128 app.js
 ```
