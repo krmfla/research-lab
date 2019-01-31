@@ -83,3 +83,18 @@ no-hup，hup指的是SIGHUP（hangup)這個信號，nohup就是忽略SIGHUP這�
 ```
 $ nohup your_command &
 ```
+
+<br />
+
+產生 SSL 憑證
+```cmd
+$ openssl genrsa -out yourkey.pem 1024
+$ openssl req -new -key  yourkey.pem -out  yourcsr.csr
+$ openssl x509 -req -in yourcsr.csr -signkey yourkey.pem -out yourcert.pem
+```
+
+轉成 .pem
+```cmd
+$ openssl x509 -in yourkey.crt -out yourkey.pem -outform PEM
+$ openssl x509 -in yourcert.crt -out yourcert.pem -outform PEM
+```
