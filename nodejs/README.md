@@ -8,6 +8,7 @@
 * chrome V8 引擎讓 javascript 可高效運行
 * 事件驅動 (event-driven)
 * 非阻斷式的輸入/輸出 (non-blocking I/O)
+* 程式輕量、開發快速
 
 **think:**
 
@@ -28,8 +29,7 @@ $ npm install --save express
 
 ### Express Generator | 快速建置 Express 環境
 
-```sh
-# install express generator
+```cmd
 $ npm install -g express-generator
 $ express -f {專案名稱}
 ```
@@ -40,7 +40,7 @@ for Node.js 的檔案系統模組 (file system)
 
 <br>
 
-## 用node.js建立web server
+## 用 node.js + express.js 建立 web server
 
 server.js
 
@@ -63,7 +63,7 @@ http.listen(3000, function(){
 run
 
 ```
-node server.js
+$ node server.js
 ```
 
 <br>
@@ -75,14 +75,14 @@ node server.js
 > http://jade.logdown.com/posts/233332-nodejs-express-4x-using-https-ssl
 
 產生 SSL 憑證
-```
+```cmd
 $ openssl genrsa -out yourkey.pem 1024
 $ openssl req -new -key  yourkey.pem -out  yourcsr.csr
 $ openssl x509 -req -in yourcsr.csr -signkey yourkey.pem -out yourcert.pem
 ```
 
 轉成 .pem
-```
+```cmd
 $ openssl x509 -in yourkey.crt -out yourkey.pem -outform PEM
 $ openssl x509 -in yourcert.crt -out yourcert.pem -outform PEM
 ```
