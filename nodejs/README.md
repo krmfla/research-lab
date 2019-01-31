@@ -8,7 +8,7 @@
 * chrome V8 引擎讓 javascript 可高效運行
 * 事件驅動 (event-driven)
 * 非阻斷式的輸入/輸出 (non-blocking I/O)
-* 程式輕量、開發快速
+* 程式輕量、開發快速¯、運作效率高
 
 **think:**
 
@@ -139,7 +139,7 @@ app.post('/', function(req, res, next) {
 
 ## 參數傳遞
 
-body-parser
+body-parser | 解析 HTTP 請求的插件
 ```cmd
 $ npm install body-parser
 ```
