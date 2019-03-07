@@ -1,3 +1,10 @@
+## 初始化 project
+```
+npm init -f
+```
+
+<br />
+
 ## express.js
 
 ```node
