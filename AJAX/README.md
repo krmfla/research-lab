@@ -67,6 +67,8 @@ $.ajax({
 
 用來處理非同步的事件
 
+**JQuery.when()**
+
 ```js
 function a() {
   var deferred = $.Deferred();
@@ -90,7 +92,7 @@ $.when(a(), b()).done(function(res1, res2) {
 })
 ```
 
-error handle
+**handle error**
 
 ```js
 function a() {
