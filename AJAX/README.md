@@ -67,6 +67,56 @@ $.ajax({
 
 用來處理非同步的事件
 
+```js
+function a() {
+  var deferred = $.Deferred();
+  setTimeout(function() {
+    deferred.resolve("a done");
+  }, 1000);
+  return deferred.promise();
+}
+
+function b() {
+  var deferred = $.Deferred();
+  setTimeout(function() {
+    deferred.resolve("b done");
+  }, 3000);
+  return deferred.promise();
+}
+
+$.when(a(), b()).done(function(res1, res2) {
+  console.log(res1); // a done
+  console.log(res2); // b done
+})
+```
+
+error handle
+
+```js
+function a() {
+  var deferred = $.Deferred();
+  setTimeout(function() {
+    deferred.resolve("a done");
+  }, 1000);
+  return deferred.promise();
+}
+
+function b() {
+  var deferred = $.Deferred();
+  setTimeout(function() {
+    deferred.reject("b fail");
+  }, 3000);
+  return deferred.promise();
+}
+
+$.when(a(), b()).done(function(res1, res2) {
+  console.log(res1);
+  console.log(res2);
+}).fail(function(error) {
+  console.error(error); // b fail
+});
+```
+
 <br />
 
 **狀態**
