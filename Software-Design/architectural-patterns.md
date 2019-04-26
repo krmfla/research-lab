@@ -55,11 +55,39 @@ Database Layer     | 資料庫，保存數據
 
 Model–View–Controller
 
+![MVC](resources/mvc.png)
+
+**Model**
+
+處理資料及業務邏輯，接受 Controller 的事件並處理，將結果更新給已註冊的 View 層。
+
+**View**
+
+將資料呈現在畫面上，並向 Model 層註冊，監聽資料的更新。
+
+**Controller**
+
+負責處理訊息(來自User、Server、Client...)，並轉發給 Model 層或 View 層處理。
+
 <br>
 
 ## MVVM
 
 Model–View–ViewModel
+
+![MVVM](resources/mvvm.png)
+
+**Model**
+
+資料層。
+
+**View**
+
+將資料呈現在畫面上。與 ViewModel 層做雙向綁定，接受 ViewModel 層的資料，將操作訊息，傳遞給 ViewModel 層。
+
+**ViewModel**
+
+接受 Model 層的資料，將顯示邏輯傳給 View 層。接受 View 層的事件，並處理業務邏輯。
 
 <br>
 
