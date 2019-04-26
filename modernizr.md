@@ -5,6 +5,8 @@
 
 <br />
 
+[Introducing to Modernizr](https://slides.com/krmfla/modernizr#/)
+
 偵測瀏覽器是否支援 HTML5、CSS3、ES5、ES6等新特性
 
 **特性：**
