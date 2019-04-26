@@ -88,7 +88,8 @@ Model–View–ViewModel
 **ViewModel**
 
 接受 Model 層的資料，將顯示邏輯傳給 View 層。接受 View 層的事件，並處理業務邏輯。
-與 Model 層關聯業務邏輯，與 View 層關聯顯示邏輯。
+
+與 Model 層之間負責處理業務邏輯，與 View 層之間負責處理顯示邏輯。
 
 <br>
 
