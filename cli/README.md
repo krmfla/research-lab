@@ -47,3 +47,15 @@ $ cp ORIGIN_FILE TARGET_FOLDER
 
 $ cp app.js /app2/src/
 ```
+
+## nohup
+
+no-hup，hup指的是SIGHUP（hangup)這個信號，nohup就是忽略SIGHUP這個信號的意思。
+
+當我們從一個連線登出的時候，每個process都會收到一個SIGHUP信號，透過nohup所下達的命令就可以不受影響，繼續執行。
+
+& 為背景執行
+
+```
+$ nohup your_command &
+```
