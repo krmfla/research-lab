@@ -6,7 +6,7 @@
 
 參與Modern Web 2017研討會的筆記
 
-### [modern web 2016](conference/modern_web_2016.md)
+### [modern web 2016](conference/modern_web.md)
 
 參與Modern Web 2016研討會的筆記
 
@@ -24,15 +24,13 @@
 
 ## [雲服務](cloud)
 
-### [OpenShift Online介紹](cloud/openshift-online.md)
+### [OpenShift Online](cloud/openshift-online.md)
 
 免費的雲端服務平台，支援Node.js開發
 
 ### [Firebase](firebase)
 
 開發方便、好用的後端服務平臺
-
->https://github.com/krmfla/research-lab/tree/master/firebase
 
 <br>
 
@@ -63,6 +61,14 @@ Samsung smart TV 開發環境
 ### [軟體設計](software-design)
 
 程式設計的建構與思維
+
+- Design Principles | 設計原則
+
+- Design Patterns | 設計模式
+
+- Architectural Patterns | 架構模式
+
+- Refactoring | 重構
 
 <br>
 
