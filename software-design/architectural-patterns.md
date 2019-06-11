@@ -43,6 +43,48 @@ Database Layer     | 資料庫，保存數據
 
 雲架構
 
+## Infrastructure
+
+基礎建設 | infra
+
+<br />
+
+![service](../images/service.png)
+
+<br />
+
+## SaaS
+
+Software as a Service
+
+常見的即是 cloud application services
+
+
+## PaaS
+
+Platform as a Service
+
+
+## IaaS
+
+Infrastructure as a Service
+
+<br />
+
+## Common Examples of SaaS, PaaS, & IaaS
+
+Platform Type | Common Examples
+------------- | ---------------
+SaaS          | Google Apps, Dropbox
+PaaS          | AWS Elastic Beanstalk, Windows Azure, Heroku, Google App Engine, Apache Stratos
+IaaS          | AWS, Cisco Metapod, Microsoft Azure, Google Compute Engine (GCE)
+
+
+
+Reference
+
+https://www.bmc.com/blogs/saas-vs-paas-vs-iaas-whats-the-difference-and-how-to-choose/
+
 <br>
 
 ### reference
