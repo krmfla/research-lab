@@ -2,26 +2,24 @@
 
 <br>
 
-## Design Principles
+## [Design Principles](design-principles.md)
 
 設計原則
 
-https://github.com/krmfla/research-lab/blob/master/Software-Design/design-principles.md
-
 <br>
 
-## Design Patterns
+## [Design Patterns](design-patterns.md)
 
 設計模式
 
-https://github.com/krmfla/research-lab/blob/master/Software-Design/design-patterns.md
-
 <br>
 
-## Architectural Patterns
+## [Architectural Patterns](architectural-patterns.md)
 
 架構模式
 
-https://github.com/krmfla/research-lab/blob/master/Software-Design/architectural-patterns.md
-
 <br>
+
+## [Refactoring](refactoring.md)
+
+重構
