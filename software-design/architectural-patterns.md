@@ -1,4 +1,4 @@
-[<< Software Design](https://github.com/krmfla/research-lab/blob/master/Software-Design/README.md)
+[<< Software Design](../software-design)
 
 # Architectural Pattern | 架構模式
 
