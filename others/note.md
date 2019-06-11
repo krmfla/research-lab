@@ -40,8 +40,6 @@ Task Queue(工作佇列): 當處理非同步函式時，會將此函式的 callb
 
 Event Loop(事件循環): 當 Stack 內是空的，就會將 Task Queue 的內容放到 Stack 內。
 
-
-
 reference:  
 [筆記] 理解 JavaScript 中的事件循環、堆疊、佇列和併發模式  
 https://pjchender.blogspot.com/2017/08/javascript-learn-event-loop-stack-queue.html
@@ -69,66 +67,5 @@ https://lepture.com/zh/2015/fe-microdata
 (IE不支援)
 
 https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch
-
-<br />
-
-# nohup
-
-no-hup，hup指的是SIGHUP（hangup)這個信號，nohup就是忽略SIGHUP這個信號的意思。
-
-當我們從一個連線登出的時候，每個process都會收到一個SIGHUP信號，透過nohup所下達的命令就可以不受影響，繼續執行。
-
-& 為背景執行
-
-```
-$ nohup your_command &
-```
-
-<br />
-
-# Infrastructure
-
-基礎建設 | infra
-
-<br />
-
-![service](./images/service.png)
-
-<br />
-
-## SaaS
-
-Software as a Service
-
-常見的即是 cloud application services
-
-
-## PaaS
-
-Platform as a Service
-
-
-## IaaS
-
-Infrastructure as a Service
-
-<br />
-
-## Common Examples of SaaS, PaaS, & IaaS
-
-Platform Type | Common Examples
-------------- | ---------------
-SaaS          | Google Apps, Dropbox
-PaaS          | AWS Elastic Beanstalk, Windows Azure, Heroku, Google App Engine, Apache Stratos
-IaaS          | AWS, Cisco Metapod, Microsoft Azure, Google Compute Engine (GCE)
-
-
-
-Reference
-
-https://www.bmc.com/blogs/saas-vs-paas-vs-iaas-whats-the-difference-and-how-to-choose/
-
-
-
 
 <br />
