@@ -1,5 +1,11 @@
 # R&D lab research notes
 
+### [modern web 2017](conference/modern_web_2017.md)
+
+參與Modern Web 2017研討會的筆記
+
+> 筆記：https://github.com/krmfla/research-lab/blob/master/modern_web_2017.md
+
 ### modern web 2016
 
 參與Modern Web 2016研討會的筆記
@@ -12,11 +18,7 @@
 
 <br>
 
-### modern web 2017
 
-參與Modern Web 2017研討會的筆記
-
-> 筆記：https://github.com/krmfla/research-lab/blob/master/modern_web_2017.md
 
 <br>
 
