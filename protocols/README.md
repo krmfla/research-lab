@@ -1,6 +1,6 @@
 # SSH | 安全外殼協定
 
-Secure Shell
+> Secure Shell
 
 一種加密的網路傳輸協定, 在網路中建立安全通道來實現SSH用戶端與伺服器之間的連接
 
@@ -27,6 +27,14 @@ scp myuser@192.168.0.1:/path/file2 /path/file1
 ```sh
  cat sourceS.pub >> .ssh/authorized_keys    # 將多個 Clients 的 public 都存放到同一個檔案 authorized_keys
 ```
+
+reference: [SSH 免密碼登入遠端主機 - 多主機 multiple ssh keys](https://blog.xuite.net/tolarku/blog/300563924-SSH+%E5%85%8D%E5%AF%86%E7%A2%BC%E7%99%BB%E5%85%A5%E9%81%A0%E7%AB%AF%E4%B8%BB%E6%A9%9F+-+%E5%A4%9A%E4%B8%BB%E6%A9%9F+multiple+ssh+keys)
+
+
+
+### 一台電腦配置多個SSH KEY，多個用戶身份
+
+reference: [一台电脑配置多个SSH KEY，多个用户身份](https://segmentfault.com/a/1190000008462401)
 
 <br />
 
