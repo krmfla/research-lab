@@ -48,6 +48,17 @@ $ cp ORIGIN_FILE TARGET_FOLDER
 $ cp app.js /app2/src/
 ```
 
+<br />
+
+## find files
+
+```
+$ find . -name file.txt
+find /images -name *.jpg
+```
+
+<br />
+
 ## nohup
 
 no-hup，hup指的是SIGHUP（hangup)這個信號，nohup就是忽略SIGHUP這個信號的意思。
