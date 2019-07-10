@@ -78,11 +78,45 @@ leo.speak();
 
 <br />
 
-## 剩餘參數
+## Destructuring Assignment | 解構賦值
 
-to be done
+```js
+// 透過其餘模式（rest pattern）將剩餘的部分指派到一個變數
+let a, b, rest;
+[a, b, ...rest] = [1, 2, 3 ,4 ,5];
+console.log(a); // 1
+console.log(b); // 2
+console.log(rest); // [3, 4, 5]
+
+// 物件解構-基本指派
+let man = { age: 42, hired: true };
+let {age, hired} = man;
+console.log(age); // 42
+console.log(hired); // true
+// 指派到新變數
+let {age: my_age, hired: is_hired } = man;
+console.warn(my_age); // 42
+console.warn(is_hired); // true
+
+let arr = [10, 11, 12, 13, 14];
+let [x, y] = arr;
+console.log(x); // 10
+console.log(y); // 11
+
+```
 
 <br />
+
+## Default Parameters | 預設參數
+
+```js
+function setColor(color = 'red',border = true) {
+  console.log(color, border);
+}
+
+setColor('yellow', false); // yellow false
+setColor(); // red true
+```
 
 **Reference**
 
