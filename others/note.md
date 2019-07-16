@@ -30,6 +30,17 @@
 
 <br />
 
+**Details**
+
+<details>
+  <summary>reed more...</summary>
+  olaolaolaola
+  
+  olaolaolaola
+</details>
+
+<br />
+
 # Stack and Queue | 堆疊與佇列
 
 Stack(堆疊): 用以執行函式, 依呼叫 (invoke) 順序，進入堆疊。
