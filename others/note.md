@@ -30,14 +30,23 @@
 
 <br />
 
+# HTML5 tag
+
 **Details**
 
 <details>
   <summary>reed more...</summary>
-  olaolaolaola
-  
-  olaolaolaola
+  <p>olaolaolaola</p>
+  <p>olaolaolaola</p>
 </details>
+
+```html
+<details>
+  <summary>reed more...</summary>
+  <p>olaolaolaola</p>
+  <p>olaolaolaola</p>
+</details>
+```
 
 <br />
 
