@@ -17,6 +17,8 @@
 ?         | 比對前一個字符0次或1次,<br /> /e?l/ 可比對 “angel” 中的 “el”，也可以比對 “angle” 中的 “l”
 ?:pattern | 匹配pattern但不獲取匹配結果 <br /> “industr(?:y│ies)" 可以匹配 ”industry" 或 "industries"
 
+匹配中文: [\u4e00-\u9fa5]
+
 <br />
 
 ## 驗證
