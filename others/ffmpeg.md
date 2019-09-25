@@ -44,6 +44,11 @@ parameters | description | example
 -y         | 略過覆蓋詢問 | 
 -s         | 輸出尺寸     | -s 1280x720 
 -map       | 對應檔案資源 | 
+-t         | 時間長度(秒)
+
+```cmd
+ffmpeg -i video.mp4 -map 0:1 out.mp3
+```
 
 <br />
 
