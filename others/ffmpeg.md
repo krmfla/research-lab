@@ -53,6 +53,14 @@ ffmpeg -i in.avi -i audio1.wav -i audio2.wav -filter_complex \
 
 <br />
 
+## Audio Volume/Speed Manipulation
+
+```cmd
+ffmpeg -i input.wav -filter:a "volume=0.5" output.wav
+
+ffmpeg -i input.mkv -filter:a "atempo=2.0" -vn output.mkv
+```
+
 ## parameters
 
 parameters | description | example
@@ -68,6 +76,12 @@ ffmpeg -i video.mp4 -map 0:1 out.mp3
 ```
 
 <br />
+
+## Google TTS
+
+```
+http://translate.google.com/translate_tts?ie=UTF-8&total=1&idx=&client=tw-ob&q='請幫我中文轉語音'&tl=zh-tw"
+```
 
 ## reference
 
