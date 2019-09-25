@@ -22,12 +22,29 @@ file 'step_2.png'
 ffmpeg -ss 00:00:00 -i test.mp4 -to 10 -r 10 -vf scale=600:-1 cutekid_cry.gif
 ```
 
+## convert audio to video
+
+```cmd
+ffmpeg -loop 1 -i a.jpg -i a.mp3 -shortest -acodec copy a.mp4
+```
+
 <br />
 
 ## [merge audio and video file in ffmpeg](https://superuser.com/questions/277642/how-to-merge-audio-and-video-file-in-ffmpeg)
 
 ```cmd
 ffmpeg -i video.mp4 -i audio.wav -c:v copy -c:a aac -strict experimental output.mp4
+```
+
+<br />
+
+## [add audio to video at specific time?](https://stackoverflow.com/questions/48169031/how-to-add-audio-to-existing-video-using-ffmpeg-at-specific-time)
+
+```cmd
+ffmpeg -i in.avi -i audio.wav -filter_complex "[1]adelay=62000|62000[aud];[0][aud]amix" -c:v copy out.avi
+
+ffmpeg -i in.avi -i audio1.wav -i audio2.wav -filter_complex \
+"[1]adelay=30000|30000[aud1];[2]adelay=90000|90000[aud2];[0][aud1][aud2]amix=3" -c:v copy out.avi
 ```
 
 <br />
