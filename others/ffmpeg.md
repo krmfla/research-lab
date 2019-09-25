@@ -80,7 +80,7 @@ ffmpeg -i video.mp4 -map 0:1 out.mp3
 ## Google TTS
 
 ```
-http://translate.google.com/translate_tts?ie=UTF-8&total=1&idx=&client=tw-ob&q='請幫我中文轉語音'&tl=zh-tw"
+http://translate.google.com/translate_tts?ie=UTF-8&total=1&idx=&client=tw-ob&q='請幫我中文轉語音'&tl=zh-tw
 ```
 
 ## reference
