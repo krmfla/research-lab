@@ -49,7 +49,9 @@ ffmpeg -i in.avi -i audio1.wav -i audio2.wav -filter_complex \
 
 <br />
 
-## [20+ FFmpeg Commands For Beginners](https://www.ostechnix.com/20-ffmpeg-commands-beginners/)
+**[20+ FFmpeg Commands For Beginners](https://www.ostechnix.com/20-ffmpeg-commands-beginners/)**
+
+**[ffmpeg mix audio at specific time](https://stackoverflow.com/questions/32949824/ffmpeg-mix-audio-at-specific-time)**
 
 <br />
 
