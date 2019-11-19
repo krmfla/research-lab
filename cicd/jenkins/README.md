@@ -1,9 +1,5 @@
 # Jenkins Test
 
-[Jenkins Dashboard](http://jenkins001.southeastasia.cloudapp.azure.com/job/webhook-pipeline/)
-
-[Pipeline(blue theme)](http://jenkins001.southeastasia.cloudapp.azure.com/blue/organizations/jenkins/webhook-pipeline/activity)
-
 <br />
 
 ### Jenkins 是什麼?
@@ -33,6 +29,12 @@ reference: [Master Continuous Delivery with CloudBees Jenkins Platform](https://
 ### 將 Jenkins 部署在 Azure 上
 
 ![flow](./images/flow.png)
+
+<br />
+
+### Jenkins Pipeline
+
+![jenkins_pipeline](./images/jenkins_pipeline.png)
 
 <br />
 
