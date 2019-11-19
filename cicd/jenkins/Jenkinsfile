@@ -1,0 +1,148 @@
+def quickSkip() {
+  def quickTest = true
+  return !quickTest
+}
+
+def slackCall(String buildResult) {
+  def _channel_name = "#my-test",
+      _color,
+      _status
+  if (buildResult == "success") {
+    _color = "good"
+    _status = "was successful"
+  }
+  else if(buildResult == "failure") {
+    _color = "danger"
+    _status = "was failed"
+  }
+  else if(buildResult == "unstable") {
+    _color = "warning"
+    _status = "was unstable"
+  }
+  else {
+    _color = "danger"
+    _status = "it's result was unclear"
+  }
+  if (quickSkip() == true) {
+    slackSend color: _color,
+            channel: _channel_name,
+            message: "${env.JOB_NAME} with #${env.BUILD_NUMBER} " + _status + ". (" + currentBuild.durationString + ")"
+  }
+}
+
+pipeline {
+  agent any
+  stages {
+    stage('dev mode') {
+      when {
+        expression {
+          return quickSkip()
+        }
+      }
+      steps {
+        script {
+          sh 'env > env.txt'
+          println "=== env ==="
+          for (String i : readFile('env.txt').split("\r?\n")) {
+            println i
+          }
+          println "=== getBuildCauses ==="
+          println currentBuild.getBuildCauses()
+        }
+      }
+    }
+    stage('initialize') {
+      when {
+        expression {
+          return quickSkip()
+        }
+      }
+      steps {
+        slackSend(
+          channel: '#my-test',
+          color: 'good',
+          message: env.JOB_NAME + ' - #' + env.BUILD_NUMBER + ' was ' + currentBuild.getBuildCauses().shortDescription[0] + '.'
+        )
+        slackSend(
+          channel: '#my-test',
+          color: 'good',
+          message: env.BUILD_URL + 'display/redirect'
+        )
+      }
+    }
+    stage('checkout') {
+      when {
+        expression {
+          return quickSkip()
+        }
+      }
+      steps {
+        checkout scm
+      }
+    }
+    stage('pre-test') {
+      steps {
+        script {
+          println "pre-test"
+          def cl = load 'test.groovy'
+          println cl
+          def javacall = load 'src/Test.class'
+          println javacall
+        }
+        
+        /*
+        HtmlPage page = j.createWebClient().goTo("web/index.html")
+        HtmlElement h2 = page.querySelector("h2")
+        println h2
+        */
+      }
+    }
+    stage('upload to Azure storage') {
+      when {
+        expression {
+          return quickSkip()
+        }
+      }
+      steps {
+        script {
+          azureCLI commands: [[
+            exportVariablesString: '', 
+            script: '''
+              az storage blob upload-batch \
+                --destination "{DESTINATION}" \
+                --source "{SOURCE}" \
+                --destination-path "{DESTINATION-PATH}" \
+                --account-name "{ACCOUNT-NAME}" \
+                --account-key "{ACCOUNT-KEY}"
+            '''
+          ]], principalCredentialId: '{PRINCIPAL_CREDENTIAL_ID}'
+          
+        }
+      }
+    }
+    stage('purge CDN cache') {
+      when {
+        expression {
+          return quickSkip()
+        }
+      }
+      steps {
+        azureCLI commands: [[exportVariablesString: '', script: 'az cdn endpoint purge -g web-lab -n jenkins-cdn --profile-name jenkins-cdn --content-paths \'{CONTENT-PATHS}\'']], principalCredentialId: '{PRINCIPAL_CREDENTIAL_ID}'
+      }
+    }
+  }
+  post {
+    success {
+      slackCall("success");
+    }
+    failure {
+      slackCall("failure");
+    }
+    unstable {
+      slackCall("unstable");
+    }
+    aborted {
+      slackCall("aborted");
+    }
+  }
+}

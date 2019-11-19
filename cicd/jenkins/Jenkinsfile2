@@ -1,0 +1,56 @@
+def slackCall(String buildResult) {
+  def channel_name = "#my-test"
+  if ( buildResult == "SUCCESS" ) {
+    slackSend color: "good", message: "Job: ${env.JOB_NAME} with #${env.BUILD_NUMBER} was successful", channel: channel_name 
+  }
+  else if( buildResult == "FAILURE" ) { 
+    slackSend color: "danger", message: "Job: ${env.JOB_NAME} with #${env.BUILD_NUMBER} was failed", channel: channel_name 
+  }
+  else if( buildResult == "UNSTABLE" ) { 
+    slackSend color: "warning", message: "Job: ${env.JOB_NAME} with #${env.BUILD_NUMBER} was unstable", channel: channel_name 
+  }
+  else {
+    slackSend color: "danger", message: "Job: ${env.JOB_NAME} with #${env.BUILD_NUMBER} its resulat was unclear", channel: channel_name 	
+  }
+}
+
+def getBuildUser() {
+    return currentBuild.rawBuild.getCause(Cause.UserIdCause).getUserId()
+}
+
+node {
+  stage('dev mode') {
+    sh 'env > env.txt'
+    for (String i : readFile('env.txt').split("\r?\n")) {
+      println i
+    }
+    println currentBuild.currentResult
+  }
+  stage('initialize') {
+    slackSend(
+      channel: '#my-test',
+      color: 'good',
+      message: env.JOB_NAME + ' - #' + env.BUILD_NUMBER + ' was starded.'
+    )
+  }
+  stage('checkout') {
+    checkout scm
+  }
+  stage('upload to Azure storage') {
+    azureUpload blobProperties: [
+        cacheControl: '', contentEncoding: '', contentLanguage: '', contentType: '', detectContentType: true
+      ], 
+      containerName: '{CONTAINER_NAME}',
+      fileShareName: '',
+      filesPath: '{FILES_PATH}',
+      storageCredentialId: '{STORAGE_CREDENTIAL_ID}',
+      storageType: 'blobstorage'
+  }
+  stage('purge CDN cache') {
+    //azureCLI commands: [[exportVariablesString: '', script: 'az cdn endpoint purge -g web-lab -n jenkins-cdn --profile-name jenkins-cdn --content-paths \'{CONTENT_PATHS}\'']], principalCredentialId: '{PRINCIPAL_CREDENTIAL_ID}'
+  }
+  stage('post build status to Slack') {
+    println currentBuild.currentResult
+    slackCall(currentBuild.currentResult)
+  }
+}
