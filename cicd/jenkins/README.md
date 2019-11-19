@@ -1,13 +1,5 @@
 # Jenkins Test
 
-![Build Status](http://jenkins001.southeastasia.cloudapp.azure.com/job/webhook-pipeline/badge/icon?style=plastic)
-
-
-
-Azure Storage | Azure CDN
-------------- | ---------
-[URL](https://cs12f2ef59c887ax4755xb5a.blob.core.windows.net/web01/jenkins_build/index.html) | [URL](https://jenkins-cdn.azureedge.net/jenkins_build/index.html)
-
 [Jenkins Dashboard](http://jenkins001.southeastasia.cloudapp.azure.com/job/webhook-pipeline/)
 
 [Pipeline(blue theme)](http://jenkins001.southeastasia.cloudapp.azure.com/blue/organizations/jenkins/webhook-pipeline/activity)
