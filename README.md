@@ -48,6 +48,46 @@
 
 <br />
 
+## CI/CD
+
+### [Jenkins](cicd/jenkins)
+
+Jenkins 建置筆記
+
+## SDK
+
+### [webOS](platform/WebOS.md)
+
+LG smart TV 開發環境
+
+### [TizenOS](platform/TizenOS.md)
+
+Samsung smart TV 開發環境
+
+### [Cordova](platform/cordova.md)
+
+用 web 技術，開發跨平臺的行動裝置應用程式
+
+<br />
+
+### [軟體設計](software-design)
+
+程式設計的建構與思維
+
+- Design Principles | 設計原則
+
+- Design Patterns | 設計模式
+
+- Architectural Patterns | 架構模式
+
+- Refactoring | 重構
+
+<br />
+
+### [Streaming Media | HLS](digital-media/README.md)
+
+串流影音及 Http Live Streaming 原理及結構
+
 ## [Javascript 研究筆記](about-javascript)
 
 ### [AJAX](ajax)
@@ -83,37 +123,3 @@ Git 研究筆記
 Command Line 語法紀錄
 
 <br />
-
-## SDK
-
-### [webOS](platform/WebOS.md)
-
-LG smart TV 開發環境
-
-### [TizenOS](platform/TizenOS.md)
-
-Samsung smart TV 開發環境
-
-### [Cordova](platform/cordova.md)
-
-用 web 技術，開發跨平臺的行動裝置應用程式
-
-<br />
-
-### [軟體設計](software-design)
-
-程式設計的建構與思維
-
-- Design Principles | 設計原則
-
-- Design Patterns | 設計模式
-
-- Architectural Patterns | 架構模式
-
-- Refactoring | 重構
-
-<br />
-
-### [Streaming Media | HLS](digital-media/README.md)
-
-串流影音及 Http Live Streaming 原理及結構
