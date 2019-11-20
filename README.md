@@ -1,5 +1,5 @@
 # R&D lab research notes  
-
+  
 ## 研討會/年會筆記
 
 ### [Modern Web 2017](conference/modern_web_2017.md)  
@@ -45,7 +45,7 @@ Samsung smart TV 開發環境
 ### [Cordova](platform/cordova.md)  
 用 web 技術，開發跨平臺的行動裝置應用程式  
 
-### [軟體設計](software-design)  
+## [軟體設計](software-design)  
 程式設計的建構與思維  
 - Design Principles | 設計原則  
 - Design Patterns | 設計模式  
