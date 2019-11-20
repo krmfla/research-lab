@@ -1,6 +1,4 @@
-# R&D lab research notes
-
-<br />
+# R&D lab research notes  
 
 ## 研討會/年會筆記
 
@@ -14,15 +12,11 @@
 
 - Slide1：http://slides.com/krmfla/deck-1/fullscreen
 
-- Slide2：http://slides.com/krmfla/i13n/fullscreen
-
-<br />
+- Slide2：http://slides.com/krmfla/i13n/fullscreen  
 
 ### [Socket.IO](socket-io)
 
-可讓不同瀏覽器或裝置間，互相溝通的程式庫
-
-<br />
+可讓不同瀏覽器或裝置間，互相溝通的程式庫  
 
 ## [雲服務](cloud)
 
@@ -32,9 +26,7 @@
 
 ### [Firebase](firebase)
 
-開發方便、好用的後端服務平臺
-
-<br />
+開發方便、好用的後端服務平臺  
 
 ## 自動化測試工具
 
@@ -44,17 +36,13 @@
 
 ### [Jasmine](test-automation/jasmine.md)
 
-自動化測試並產生 Report UI 介面
-
-<br />
+自動化測試並產生 Report UI 介面  
 
 ## CI/CD
 
 ### [Jenkins](cicd/jenkins)
 
-Jenkins 建置筆記
-
-<br />
+Jenkins 建置筆記  
 
 ## SDK
 
@@ -68,9 +56,7 @@ Samsung smart TV 開發環境
 
 ### [Cordova](platform/cordova.md)
 
-用 web 技術，開發跨平臺的行動裝置應用程式
-
-<br />
+用 web 技術，開發跨平臺的行動裝置應用程式  
 
 ### [軟體設計](software-design)
 
@@ -82,15 +68,11 @@ Samsung smart TV 開發環境
 
 - Architectural Patterns | 架構模式
 
-- Refactoring | 重構
-
-<br />
+- Refactoring | 重構  
 
 ### [Streaming Media | HLS](digital-media/README.md)
 
-串流影音及 Http Live Streaming 原理及結構
-
-<br />
+串流影音及 Http Live Streaming 原理及結構  
 
 ## [Javascript 研究筆記](about-javascript)
 
@@ -112,18 +94,12 @@ React 研究筆記
 
 ### [NodeJS](nodejs)
 
-NodeJS 研究筆記
-
-<br />
+NodeJS 研究筆記  
 
 ### [Git](git)
 
-Git 研究筆記
-
-<br />
+Git 研究筆記  
 
 ### [Command Line](cli)
 
-Command Line 語法紀錄
-
-<br />
+Command Line 語法紀錄  
