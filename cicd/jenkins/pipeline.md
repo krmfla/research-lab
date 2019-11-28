@@ -20,6 +20,60 @@ Java 平台上的物件導向設計語言
 
 <br />
 
+## 基本架構
+
+
+```groovy
+pipeline {
+    agent any
+    environment {
+        DEPLOY_KEY = "123"
+    }
+    stages {
+        stage('Initialize') {
+            steps {
+                sh "HANDLE INITIALIZE"
+            }
+        }
+        stage('Build') {
+            steps {
+                sh "HANDLE BUILDING"
+            }
+        }
+        stage('Deploy') {
+            steps {
+                script {
+                    if (condtion) {
+                        sh "TODO SOMTHING"
+                    } else {
+                        sh "TODO SOMTHING"
+                    }
+                }
+                
+            }
+        }
+    }
+    post {
+        always {
+            echo 'This will always run'
+        }
+        success {
+            echo 'This will run only if successful'
+        }
+        failure {
+            echo 'This will run only if failed'
+        }
+        unstable {
+            echo 'This will run only if the run was marked as unstable'
+        }
+        changed {
+            echo 'This will run only if the state of the Pipeline has changed'
+            echo 'For example, if the Pipeline was previously failing but is now successful'
+        }
+    }
+}
+```
+
 **reference:**
 
 精通 Jenkins Pipeline author: [c9s](https://medium.com/@c9s)
