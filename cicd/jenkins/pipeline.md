@@ -27,7 +27,7 @@ Java 平台上的物件導向設計語言
 pipeline {
     agent any
     environment {
-        
+        // env.DEPLOY_KEY = "123"
         DEPLOY_KEY = "123"
     }
     stages {
@@ -44,6 +44,7 @@ pipeline {
         stage('Deploy') {
             steps {
                 script {
+                    // 要寫在 script 裡
                     if (condtion) {
                         sh "TODO SOMTHING"
                     } else {
