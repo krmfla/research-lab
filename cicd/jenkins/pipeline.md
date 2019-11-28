@@ -27,6 +27,7 @@ Java 平台上的物件導向設計語言
 pipeline {
     agent any
     environment {
+        
         DEPLOY_KEY = "123"
     }
     stages {
