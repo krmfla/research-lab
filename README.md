@@ -26,6 +26,9 @@
 ### [Jasmine](test-automation/jasmine.md)  
 自動化測試並產生 Report UI 介面  
 
+### [Jest](test-automation/jest.md)
+最多人使用的 javascript 自動化測試工具
+
 ## CI/CD  
 
 ### [Jenkins](cicd/jenkins)  
@@ -57,6 +60,8 @@ Samsung smart TV 開發環境
 ### [AJAX](ajax)  
 ajax 研究筆記
 
+## Javascript Framework
+
 ### [JQuery](jquery)  
 JQuery 研究筆記
 
@@ -66,11 +71,6 @@ Vue 研究筆記
 ### [React](react)  
 React 研究筆記
 
-
-
-### [Git](git)  
-Git 研究筆記  
-
 ## NodeJS
 
 ### [NodeJS](nodejs)  
@@ -79,5 +79,10 @@ NodeJS 研究筆記
 ### [Socket.IO](socket-io)  
 可讓不同瀏覽器或裝置間，互相溝通的程式庫  
 
+## Command Line
+
 ### [Command Line](cli)  
 Command Line 語法紀錄  
+
+### [Git](git)  
+分散式版本控制
