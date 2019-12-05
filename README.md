@@ -1,4 +1,7 @@
-# R&D lab research notes  
+# Research Notes  
+
+![mind_map](./images/mind_map.png)  
+
   
 ## 研討會/年會筆記
 
