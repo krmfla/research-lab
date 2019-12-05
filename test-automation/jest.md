@@ -54,13 +54,17 @@ it('test promise', () => {
 ### Async / Await
 
 ```js
-it('test A', async () => {
-    const text = await new Promise((resolve, reject) => {
-        setTimeout(function() {
-            console.log('return resolved');
-            resolve('A');
-        }, 500);
-    });
-    expect(text).toBe('A');
+it('asynchronous test', async () => {
+    function fetchData() {
+        return new Promise((resolve, reject) => {
+            setTimeout(function() {
+                console.log('return asynchronous');
+                resolve('asynchronous');
+            }, 500);
+        });
+    }
+
+    const text = await fetchData();
+    expect(text).toBe('asynchronous');
 });
 ```
