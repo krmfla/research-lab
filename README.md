@@ -10,9 +10,6 @@
 - Slide1：http://slides.com/krmfla/deck-1/fullscreen  
 - Slide2：http://slides.com/krmfla/i13n/fullscreen  
 
-### [Socket.IO](socket-io)  
-可讓不同瀏覽器或裝置間，互相溝通的程式庫  
-
 ## [雲服務](cloud)  
 
 ### [OpenShift Online](cloud/openshift-online.md)  
@@ -69,11 +66,18 @@ Vue 研究筆記
 ### [React](react)  
 React 研究筆記
 
-### [NodeJS](nodejs)  
-NodeJS 研究筆記  
+
 
 ### [Git](git)  
 Git 研究筆記  
+
+## NodeJS
+
+### [NodeJS](nodejs)  
+NodeJS 研究筆記  
+
+### [Socket.IO](socket-io)  
+可讓不同瀏覽器或裝置間，互相溝通的程式庫  
 
 ### [Command Line](cli)  
 Command Line 語法紀錄  
