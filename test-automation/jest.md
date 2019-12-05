@@ -4,6 +4,14 @@
 
 <br />
 
+### NPM Trends
+
+`Jest` vs `Jasmine` vs `Mocha`
+
+![testing_framework](https://github.com/krmfla/research-lab/blob/master/images/testing_framework.png)
+
+<br />
+
 ## Testing Asynchronous Code
 
 [reference](https://jestjs.io/docs/zh-Hans/asynchronous)
@@ -20,8 +28,9 @@ it('test done', done => {
     callback('A');
 });
 ```
+<br />
 
-
+### Promise
 
 ```js
 it('test promise', () => {
@@ -39,6 +48,10 @@ it('test promise', () => {
     });
 })
 ```
+
+<br />
+
+### Async / Await
 
 ```js
 it('test A', async () => {
