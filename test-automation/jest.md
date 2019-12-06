@@ -70,3 +70,29 @@ it('asynchronous test', async () => {
     expect(text).toBe('asynchronous');
 });
 ```
+
+<br />
+
+### After the Promise responds, run the　next test
+
+```js
+describe('asynchronous test',  () => {
+    function getList() {
+        return new Promise((resolve, reject) => {
+           setTimeout(function() {
+               resolve('success');
+           }, 600);
+       });
+    }
+
+    it('step 1', async() => {
+        const response = await getList();
+        async_obj._res = response;
+        expect(response).toBe('success');
+    });
+
+    it('step 2', () => {
+        expect(async_obj._res).toBe('success');
+    });
+});
+```
