@@ -4,11 +4,13 @@
 
 <br />
 
-### NPM Trends
+### npm Trends
 
 `Jest` vs `Jasmine` vs `Mocha`
 
 ![testing_framework](https://github.com/krmfla/research-lab/blob/master/images/testing_framework.png)
+
+https://www.npmtrends.com/jest-vs-jasmine-vs-mocha
 
 <br />
 
