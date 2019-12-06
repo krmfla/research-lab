@@ -73,7 +73,7 @@ it('asynchronous test', async () => {
 
 <br />
 
-### After the Promise responds, run the　next test
+### After the Promise responds, run the next test
 
 ```js
 describe('asynchronous test',  () => {
