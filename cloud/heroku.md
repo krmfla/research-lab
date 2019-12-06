@@ -16,5 +16,11 @@ app.js
 const PORT = process.env.PORT || 5000;
 ```
 
+### debug
+
+```shell
+heroku logs --tail
+```
+
 
 ## create PostgreSQL on Hroku
