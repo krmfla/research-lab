@@ -4,7 +4,15 @@
 
 ## Lifecycle
 
-![lifecycle](../images/vue-lifecycle.png)
+![lifecycle](./lifecycle.png)
+
+https://vuejs.org/v2/guide/instance.html
+
+## Render Function
+
+![render-function](./render-function.jpeg)
+
+https://www.w3cplus.com/vue/vue-render-function.html
 
 <br />
 
