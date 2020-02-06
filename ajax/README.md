@@ -121,7 +121,15 @@ $.when(a(), b()).done(function(res1, res2) {
 
 <br />
 
-**async await 和 promise 的關係**
+### async await 和 promise 的關係
+
+**async**
+
+![async.png](../images/async.png)
+
+**promise**
+
+![promise.png](../images/promise.png)
 
 <br />
 
