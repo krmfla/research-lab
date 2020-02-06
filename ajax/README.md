@@ -45,6 +45,89 @@ function loadDoc() {
 
 <br />
 
+### async await 和 promise 的關係
+
+**async**
+
+當 async 函式被呼叫時，它會回傳一個 Promise。
+
+如果該 async 函式回傳了一個值，Promise 的狀態將為一個帶有該回傳值的 resolved。
+
+如果 async 函式拋出例外或某個值，Promise 的狀態將為一個帶有被拋出值的 rejected。
+
+```js
+function wait(ms) {
+  return new Promise(r => setTimeout(r, ms));
+}
+
+// sequential
+async function series() {
+  await wait(500); // Wait 500ms…
+  await wait(500); // …then wait another 500ms.
+  console.log("series done!");
+}
+
+// parallel
+async function parallel() {
+  const wait1 = wait(500); // Start a 500ms timer asynchronously…
+  const wait2 = wait(500); // …meaning this timer happens in parallel.
+  await wait1;             // Wait 500ms for the first timer…
+  await wait2;             // …by which time this timer has already finished.
+  console.log("parallel done!");
+}
+```
+
+<br />
+
+![async.png](../images/async.png)
+
+<br />
+
+**promise**
+
+<br />
+
+![promise.png](../images/promise.png)
+
+promise polyfill
+```html
+<script src="https://cdn.jsdelivr.net/npm/promise-polyfill@8/dist/polyfill.min.js"></script>
+```
+
+<br />
+
+### Fetch API
+
+```js
+fetch(url, options).then(function(response) {
+  // handle HTTP response
+}, function(error) {
+  // handle network error
+})
+
+// options
+fetch(url, {
+  method: "POST",
+  body: JSON.stringify(data),
+  headers: {
+    "Content-Type": "application/json"
+  },
+  credentials: "same-origin"
+}).then(function(response) {
+  response.status     //=> number 100–599
+  response.statusText //=> String
+  response.headers    //=> Headers
+  response.url        //=> String
+
+  return response.text()
+}, function(error) {
+  error.message //=> String
+})
+```
+
+
+<br />
+
 ## JQuery AJAX
 
 ```javascript
@@ -63,7 +146,7 @@ $.ajax({
 
 ### JQuery Deferred
 
-延遲執行callback，可串接多個任務
+延遲執行 callback，可串接多個任務
 
 用來處理非同步的事件
 
@@ -121,18 +204,6 @@ $.when(a(), b()).done(function(res1, res2) {
 
 <br />
 
-### async await 和 promise 的關係
-
-**async**
-
-![async.png](../images/async.png)
-
-**promise**
-
-![promise.png](../images/promise.png)
-
-<br />
-
 **狀態**
 
 pending
@@ -145,7 +216,7 @@ fail | error
 
 <b>promise</b>
 
-Deferred的簡化，少了設定狀態的方法，以防止被變更狀態
+Deferred 的簡化，少了設定狀態的方法，以防止被變更狀態
 
 <br />
 
@@ -165,15 +236,15 @@ the same-origin policy says that browsers should only allow ajax calls to servic
 
 ## HTTP Status Code
 
-1xx訊息
+1xx 訊息
 
-2xx成功
+2xx 成功
 
-3xx重新導向
+3xx 重新導向
 
-4xx用戶端錯誤
+4xx 用戶端錯誤
 
-5xx伺服器錯誤
+5xx 伺服器錯誤
 
 <br />
 
