@@ -121,6 +121,10 @@ $.when(a(), b()).done(function(res1, res2) {
 
 <br />
 
+**async await 和 promise 的關係**
+
+<br />
+
 **狀態**
 
 pending
