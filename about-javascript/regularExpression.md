@@ -25,6 +25,15 @@
 
 **驗證身份證格式**
 
+```js
+var reg = /^[A-Z]\d{9}$/;
+var test1 = 'A123456789';
+var test2 = 'a123456789';
+
+console.log(reg.exec(test1)); // ["A123456789", index: 0, input: "A123456789", groups: undefined]
+console.log(reg.exec(test2)); // null
+```
+
 <br />
 
 ## 將特定內容轉換
