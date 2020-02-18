@@ -2,10 +2,6 @@
 
 ## 格式
 
-<table>
-  
-</table>
-
 格式      | 用途
 --------- | ----
 ^         | 匹配開頭字符
@@ -21,6 +17,19 @@
 
 <br />
 
+## 方法
+
+#### [Methods that use regular expressions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions#Using_regular_expressions_in_JavaScript)
+Method     | Description
+---------- | ---
+exec()	   | Executes a search for a match in a string. It returns an array of information or null on a mismatch.
+test()	   | Tests for a match in a string. It returns true or false.
+match()	   | Returns an array containing all of the matches, including capturing groups, or null if no match is found.
+matchAll() | Returns an iterator containing all of the matches, including capturing groups.
+search()   | Tests for a match in a string. It returns the index of the match, or -1 if the search fails.
+replace()  | Executes a search for a match in a string, and replaces the matched substring with a replacement substring.
+split()	   | Uses a regular expression or a fixed string to break a string into an array of substrings.
+
 ## 驗證
 
 **驗證身份證格式**
@@ -32,6 +41,9 @@ var test2 = 'a123456789';
 
 console.log(reg.exec(test1)); // ["A123456789", index: 0, input: "A123456789", groups: undefined]
 console.log(reg.exec(test2)); // null
+
+console.log(reg.test(test1)); // true
+console.log(reg.test(test2)); // false
 ```
 
 <br />
