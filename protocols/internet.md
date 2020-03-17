@@ -34,6 +34,8 @@ CNAME
 
 PTR
 
+<br />
+
 ### reference
 
 [認識網址與網域名稱](https://pjchender.github.io/2018/06/06/%E7%B6%B2%E9%9A%9B%E7%B6%B2%E8%B7%AF-%E8%AA%8D%E8%AD%98%E7%B6%B2%E5%9D%80%E8%88%87%E7%B6%B2%E5%9F%9F%E5%90%8D%E7%A8%B1%EF%BC%88domain-name-url-dns%EF%BC%89/)
