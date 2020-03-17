@@ -24,7 +24,6 @@ location.hostname = `www.sample.com`
 location.host = `www.sample.com:8080`
 
 
-
 **pathname | 路徑名**
 
 location.pathname = `/campaign/index.html`
@@ -32,6 +31,12 @@ location.pathname = `/campaign/index.html`
 <br />
 
 # Network
+
+瀏覽器處理使用者請求的過程
+
+![redirect](./images/redirect.png)
+
+重定向 -> 檢查瀏覽器暫存 -> DNS 查詢 -> 建立 TCP 連結 -> 發出請求 -> 接收響應 -> 處理 HTML 元素 -> 元素載入完成
 
 ## Domain Name | 域名
 
@@ -46,3 +51,15 @@ location.pathname = `/campaign/index.html`
 www.wikipedia.org  --> DNS --> 208.80.152.2
 
 域名  --> DNS -->IP位置
+
+<br />
+
+## 瀏覽器渲染過程
+
+![render](./images/render.png)
+
+<br />
+
+## Reference
+
+[瀏覽器處理使用者請求的過程 & 效能優化](https://www.infoq.cn/article/g_yqBu1TxmMPeeLOf8Wt)
