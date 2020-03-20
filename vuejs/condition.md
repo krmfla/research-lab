@@ -21,3 +21,5 @@ var app = new Vue({
   }
 })
 ```
+
+https://codepen.io/krmfla/pen/YjRRep
