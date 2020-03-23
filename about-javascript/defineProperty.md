@@ -51,6 +51,22 @@ set          | undefined | 作為 setter 形式，為屬性存在的函式
 
 <br />
 
+## 如何使 a === 1 && a === 2 && a === 3 成立?
+
+```javascript
+var value = 1;
+
+Object.defineProperty(window, 'a', {
+  get: function() {
+    return value++
+  }
+});
+
+if (a === 1 && a === 2 && a === 3) {
+    console.log('yoo');
+}
+```
+
 ## reference
 
 [MDN | Object.defineProperty()](https://developer.mozilla.org/zh-TW/docs/Web/JavaScript/Reference/Global_Objects/Object/defineProperty)
