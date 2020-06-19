@@ -38,9 +38,13 @@ location.pathname = `/campaign/index.html`
 
 重定向 -> 檢查瀏覽器暫存 -> DNS 查詢 -> 建立 TCP 連結 -> 發出請求 -> 接收響應 -> 處理 HTML 元素 -> 元素載入完成
 
+<br />
+
 ## Domain Name | 域名
 
 是網路上某一台電腦或電腦組的名稱，由一串用點分隔的名字組成
+
+<br />
 
 ### DNS | 網域名稱系統
 > Domain Name System
