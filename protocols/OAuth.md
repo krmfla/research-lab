@@ -2,6 +2,8 @@
 
 允許第三方應用，存取用戶的資訊，而不需提供帳號密碼。
 
+[Google Sign-In JavaScript client reference](https://developers.google.com/identity/sign-in/web/reference#googleauthissignedinlistenlistener)
+
 <br />
 
 ## JWT | Json Web Token
