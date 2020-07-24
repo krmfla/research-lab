@@ -14,6 +14,9 @@ let GoogleAuth = gapi.auth2.getAuthInstance();
 
 <br />
 
+![OAuth](./oauth.jpg)
+reference: [https://twitter.com/kamranahmedse/status/1276994010423361540](https://twitter.com/kamranahmedse/status/1276994010423361540)
+
 ## JWT | Json Web Token
 
 將 data 以 base64 格式編碼，並以 `.` 做分隔
