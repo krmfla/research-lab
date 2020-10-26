@@ -2,7 +2,7 @@
 
 `https`://`www`.`youtube`.`com`:`80` `/path/to/page.html` `?key1=value1&key2=value2` `#section2`
 
-**通訊協定 (protocol):** `http`、`https`、`ftp`
+**通訊協定 (protocol):** `http`、`https`、`ftp`、`ws`、`wss`
 
 **子網域(subdomain)或主機名(host):** `www`
 
