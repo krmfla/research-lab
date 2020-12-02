@@ -18,3 +18,13 @@ fatal: repository 'https://github.com/krmfla/SOME_PROJECT.git/' not found
 windows 搜尋認證管理員, windows 認證 > 一般認證 > git:https://github.com > 編輯或移除
 
 [git报错remote: Repository not found的一种可能](https://www.jianshu.com/p/5eb3a91458de)
+
+### push 失敗, 出現 everything up-to-date
+
+因 退版 checkout 後, 切換到新分支
+
+處理：
+
+切換到原本的 branch, git reset <COMMIT-ID>
+  
+  [git push says “everything up-to-date” even though I have local changes](https://stackoverflow.com/questions/999907/git-push-says-everything-up-to-date-even-though-i-have-local-changes)
