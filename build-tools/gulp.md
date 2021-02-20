@@ -21,14 +21,14 @@ gulp.task('default', function (cd) {
 gulp.task('testing', function (cd) {
     isDev = true;
     isLocal = false;
-    destPath = buildPath
+    destPath = buildPath;
     runsequence('clean', ['html', 'sass', 'js', 'copyImg'], 'writeVersion', cd);
 });
 
 gulp.task('production', function (cd) {
     isDev = false;
     isLocal = false;
-    destPath = buildPath
+    destPath = buildPath;
     runsequence('clean', ['html', 'sass', 'js', 'copyImg'], 'writeVersion', cd);
 });
 
