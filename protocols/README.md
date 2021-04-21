@@ -59,3 +59,24 @@ SSL 憑證是數位證書，用來驗證網站的身分並使用 SSL 技術將�
 > Hypertext Transfer Protocol Secure
 
 利用SSL/TLS來加密封包
+
+## HTTP Request
+
+### Content-type
+
+**application/x-www-form-urlencoded**
+
+`title=foo&message=bar`
+
+**application/json**
+
+```
+{
+ "title": "foo",
+ "message": "bar"
+}
+```
+
+**multipart/form-data**
+
+用於上傳檔案
