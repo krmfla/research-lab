@@ -83,15 +83,31 @@ async function parallel() {
 
 <br />
 
-**promise**
+**Promise**
 
 <br />
 
 ![promise.png](../images/promise.png)
 
-promise polyfill
+**Promise polyfill**
 ```html
 <script src="https://cdn.jsdelivr.net/npm/promise-polyfill@8/dist/polyfill.min.js"></script>
+```
+
+**用 Promise 做延遲 3秒後執行**
+
+```js
+var promise1 = new Promise((resolve, reject) => {
+  setTimeout(()=> {
+    resolve('done');
+  }, 3000);
+});
+
+promise1.then(value=> {
+  console.log(value);
+});
+
+console.log(promise1);
 ```
 
 <br />
