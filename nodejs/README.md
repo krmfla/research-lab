@@ -158,6 +158,38 @@ express()
   });
 ```
 
+## 如何分塊引入
+
+source1.js
+```js
+var foo = 'bar';
+module.exports = foo;
+```
+
+app.js
+```js
+var source1 = require('./source1.js');
+console.log(source1); // 'bar'
+```
+
+source2.js
+```js
+var foo = 'bar';
+module.exports = {
+  getText: function() {
+    return foo;
+  }
+};
+```
+
+app.js
+```js
+var source2 = require('./source2.js');
+console.log(source2.getText()); // 'bar'
+```
+
+reference: [Node.js 的 module.exports 和 require](https://dwatow.github.io/2018/02-13-js-module-require-exports/)
+
 ## Practice
 
 **用 nodeJS 寫一隻爬蟲, 尋找有趣的活動, 並將結果寄到 e-mail**
