@@ -70,3 +70,12 @@ no-hup，hup指的是SIGHUP（hangup)這個信號，nohup就是忽略SIGHUP這�
 ```
 $ nohup your_command &
 ```
+
+## tree
+
+列出檔案樹狀結構
+/f = files
+```
+tree /f
+```
+[Tree Command](https://jpsoft.com/help/tree.htm)
