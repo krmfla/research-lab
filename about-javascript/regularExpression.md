@@ -97,7 +97,14 @@ console.log(match[1]); // 1234
 console.log(match[2]); // 5678
 ```
 
-**case: 用特定文字切詞**
+**case: 用特定文字切詞1**
+
+```javascript
+var array = 'hello,goodbye,test1,test2,1,90m tall';
+array.split(/,(?!\d\d)/)) // ["hello", "goodbye", "test1", "test2", "1,90m tall"]
+```
+
+**case: 用特定文字切詞2**
 
 ```javascript
 var string4 = 'one split two splat three splot four';
