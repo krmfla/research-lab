@@ -104,6 +104,10 @@ console.log(match[2]); // 5678
 var array = 'hello,goodbye,test1,test2,1,90m tall';
 array.split(/,(?!\d\d)/); // ["hello", "goodbye", "test1", "test2", "1,90m tall"]
 ```
+`x(?!y)` 符合'x'，且後接的不是'y'。
+
+`x(?=y)` 符合'x'，且後接的是'y'。
+
 [How do I split string using "if" condition and separator](https://stackoverflow.com/questions/36666975/how-do-i-split-string-using-if-condition-and-separator)
 
 **case: 用特定規則切詞2**
@@ -112,6 +116,9 @@ array.split(/,(?!\d\d)/); // ["hello", "goodbye", "test1", "test2", "1,90m tall"
 var string = 'one split two splat three splot four';
 var splitString = string.split(/\s+(?:split|splat|splot)\s+/); // ["one", "two", "three", "four"]
 ```
+
+`\s` 空白字元
+
 [JavaScript split string with .match(regex)](https://stackoverflow.com/questions/37838532/javascript-split-string-with-matchregex)
 
 ### reference:
