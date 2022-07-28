@@ -97,6 +97,15 @@ console.log(match[1]); // 1234
 console.log(match[2]); // 5678
 ```
 
+**case: 用特定文字切詞**
+
+```javascript
+var string4 = 'one split two splat three splot four';
+var splitString4 = string4.split(/\s+(?:split|splat|splot)\s+/);
+console.log(splitString4); // ["one", "two", "three", "four"]
+```
+https://stackoverflow.com/questions/37838532/javascript-split-string-with-matchregex
+
 ### reference:
 
 正規表示式 Regular Expression | 就是愛程式
