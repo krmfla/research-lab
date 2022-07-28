@@ -97,21 +97,21 @@ console.log(match[1]); // 1234
 console.log(match[2]); // 5678
 ```
 
-**case: 用特定文字切詞1**
+# **case: 用特定規則切詞1**
 
 ```javascript
 var array = 'hello,goodbye,test1,test2,1,90m tall';
-array.split(/,(?!\d\d)/)) // ["hello", "goodbye", "test1", "test2", "1,90m tall"]
+array.split(/,(?!\d\d)/); // ["hello", "goodbye", "test1", "test2", "1,90m tall"]
 ```
+[How do I split string using "if" condition and separator](https://stackoverflow.com/questions/36666975/how-do-i-split-string-using-if-condition-and-separator)
 
-**case: 用特定文字切詞2**
+# **case: 用特定規則切詞2**
 
 ```javascript
-var string4 = 'one split two splat three splot four';
-var splitString4 = string4.split(/\s+(?:split|splat|splot)\s+/);
-console.log(splitString4); // ["one", "two", "three", "four"]
+var string = 'one split two splat three splot four';
+var splitString = string.split(/\s+(?:split|splat|splot)\s+/); // ["one", "two", "three", "four"]
 ```
-https://stackoverflow.com/questions/37838532/javascript-split-string-with-matchregex
+[JavaScript split string with .match(regex)](https://stackoverflow.com/questions/37838532/javascript-split-string-with-matchregex)
 
 ### reference:
 
