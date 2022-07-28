@@ -96,8 +96,9 @@ var match = reg.exec(content);
 console.log(match[1]); // 1234
 console.log(match[2]); // 5678
 ```
+## 切詞
 
-# **case: 用特定規則切詞1**
+**case: 用特定規則切詞1**
 
 ```javascript
 var array = 'hello,goodbye,test1,test2,1,90m tall';
@@ -105,7 +106,7 @@ array.split(/,(?!\d\d)/); // ["hello", "goodbye", "test1", "test2", "1,90m tall"
 ```
 [How do I split string using "if" condition and separator](https://stackoverflow.com/questions/36666975/how-do-i-split-string-using-if-condition-and-separator)
 
-# **case: 用特定規則切詞2**
+**case: 用特定規則切詞2**
 
 ```javascript
 var string = 'one split two splat three splot four';
