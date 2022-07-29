@@ -119,6 +119,12 @@ var splitString = string.split(/\s+(?:split|splat|splot)\s+/); // ["one", "two",
 
 `\s` 空白字元
 
+`\s+` 至少要有一個空白字元
+
+`(?:split|splat|splot)` 匹配 `split` 或 `splat` 或 `splot` 格式，但不會被取出來
+
+`string.split(/\s+(?:split|splat|splot)\s+/)` 用 ` split ` 或 ` splat ` 或 ` splot ` 來切分字組
+
 [JavaScript split string with .match(regex)](https://stackoverflow.com/questions/37838532/javascript-split-string-with-matchregex)
 
 ### reference:
