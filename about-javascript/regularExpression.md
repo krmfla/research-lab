@@ -127,7 +127,18 @@ var splitString = string.split(/\s+(?:split|splat|splot)\s+/); // ["one", "two",
 
 [JavaScript split string with .match(regex)](https://stackoverflow.com/questions/37838532/javascript-split-string-with-matchregex)
 
-### reference:
+## 計算
+
+**case: 計算特定字元數**
+
+```javascript
+var str = "This is a string.";
+var count = (str.match(/is/g) || []).length; // ['is', 'is'], count.length = 2
+```
+
+[Count special characters in a string](https://stackoverflow.com/questions/32182708/count-special-characters-in-a-string)
+
+## reference:
 
 正規表示式 Regular Expression | 就是愛程式
 
