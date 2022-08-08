@@ -141,6 +141,45 @@ fetch(url, {
 })
 ```
 
+```js
+// GET
+function get_something() {
+  fetch(API_URL, {
+    cache: 'no-cache',
+    headers: {
+      'content-type': 'application/json',
+      'webToken': WEB_TOKEN,
+    },
+    method: 'GET',
+    mode: 'cors',
+    referrer: 'no-referrer',
+  })
+  .then(response => { return response.json() })
+  .then(res => { console.log(res) });
+}
+
+//POST
+function update(uid, token) {
+  var formData = new FormData();
+  formData.append("uid", uid);
+  console.log(formData);
+  fetch(API_URL, {
+    cache: 'no-cache',
+    body: formData,
+    headers: {
+      // 'content-type': 'multipart/form-data',
+      'Authorization': `Bearer ${token}`,
+    },
+    method: 'POST',
+    mode: 'cors',
+    referrer: 'no-referrer',
+  })
+  .then(response => { return response.json() })
+  .then(res => { console.log(res); });
+}
+
+```
+
 
 <br />
 
