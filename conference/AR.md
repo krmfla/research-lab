@@ -58,11 +58,31 @@ FB 元宇宙 工作室
 
 [AR Preventive Maintenance](https://www.youtube.com/watch?v=-WTc3hN7YL8)
 
+[AR/VR Augmented Operations and Maintenance](https://www.youtube.com/watch?v=1A1gQyebX_0)
+
 ## 有哪些公司在發展 AR?
+
+google 
+
+microsoft
 
 ## 目前有哪些困境？批評？
 
+### 技術門檻：
+
+3D 建模
+
+圖像辨識
+
+偵測距離
+
+錨點定位 (黑松 vs google ar)
+
+
+
 隱私權疑慮 >在他人未察覺的情況下錄製拍攝影片或相片(google glass)
+
+使用 AR 進行培訓的一個潛在危險是該技術的用戶可靠性。因此，沒有它，用戶將無法執行任務。為了克服這種情況，需要控制訓練期間可用的信息。
 
 ## 如何在廣告行銷業應用
 
@@ -77,3 +97,5 @@ FB 元宇宙 工作室
 ## 春樹過往的案例
 
 ## 春樹可以怎麼做？
+
+樂事案例分析
