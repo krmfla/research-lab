@@ -8,6 +8,8 @@ Andorid 手機開啟開發人員模式
 
 接上 USB 線後會跳是否允許 PC 進行 USB 偵錯
 
+或 系統 > 開發人員選項 > 啟用 USB 偵錯
+
 Chome 偵錯網址：
 
 chrome://inspect#devices
