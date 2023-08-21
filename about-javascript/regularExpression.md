@@ -2,18 +2,20 @@
 
 ## 格式
 
-格式      | 用途
---------- | ----
-^         | 匹配開頭字符
-[xyz]     | 比對括弧內的任一個字元, ex: [ecm] 可比對 welcome 中的 e c m
-[^xyz]    | 比對不在括弧內的任一個字元, ex: [^ecm] 可比對 welcome 中的 wlo
-`+`       | 比對前一個字元一次或更多次 ex: a+ 一個或多個a
-\         | 選取特定符號 ``\<``, ``\"``
-.*        | 選取所有內容
-?         | 比對前一個字符0次或1次,<br /> /e?l/ 可比對 “angel” 中的 “el”，也可以比對 “angle” 中的 “l”
-?:pattern | 匹配pattern但不獲取匹配結果 <br /> “industr(?:y│ies)" 可以匹配 ”industry" 或 "industries"
+格式            | 用途
+--------------- | ----
+^               | 匹配開頭字符
+[xyz]           | 比對括弧內的任一個字元, ex: [ecm] 可比對 welcome 中的 e c m
+[^xyz]          | 比對不在括弧內的任一個字元, ex: [^ecm] 可比對 welcome 中的 wlo
+`+`             | 比對前一個字元一次或更多次 ex: a+ 一個或多個a
+\               | 選取特定符號 ex: ``\<``, ``\"``
+`*`             | 比對前一個字元0次或多次
+.*              | 選取所有內容
+?               | 比對前一個字符0次或1次,<br /> /e?l/ 可比對 “angel” 中的 “el”，也可以比對 “angle” 中的 “l”
+?:pattern       | 匹配pattern但不獲取匹配結果 <br /> “industr(?:y│ies)" 可以匹配 ”industry" 或 "industries"
+[\u4e00-\u9fa5] | 匹配中文
 
-匹配中文: [\u4e00-\u9fa5]
+`x|y` 符合 x 或 y
 
 <br />
 
@@ -96,6 +98,20 @@ var match = reg.exec(content);
 console.log(match[1]); // 1234
 console.log(match[2]); // 5678
 ```
+
+**case: 轉址**
+
+```javascript
+var origin = '/71DAC/campaign/AAA/?v=1';
+var reg = /\/71DAC\/campaign\/((?:[^\?]*\/)?)($|\?.*)/;
+var path = origin.replace(reg, '/71DAC/campaign/$1index.html$2')
+
+console.log(path); // /71DAC/campaign/AAA/index.html?v=1
+```
+
+`(?:[^\?]*\/)` 不包含'?'，且以'/'結尾的內容
+
+
 ## 切詞
 
 **case: 用特定規則切詞1**
