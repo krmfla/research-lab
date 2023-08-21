@@ -102,11 +102,11 @@ console.log(match[2]); // 5678
 **case: 轉址**
 
 ```javascript
-var origin = '/71DAC/campaign/AAA/?v=1';
-var reg = /\/71DAC\/campaign\/((?:[^\?]*\/)?)($|\?.*)/;
-var path = origin.replace(reg, '/71DAC/campaign/$1index.html$2')
+var origin = '/campaign/AAA/?v=1';
+var reg = /\/campaign\/((?:[^\?]*\/)?)($|\?.*)/;
+var path = origin.replace(reg, '/campaign/$1index.html$2')
 
-console.log(path); // /71DAC/campaign/AAA/index.html?v=1
+console.log(path); //path: /campaign/AAA/index.html?v=1
 ```
 
 `(?:[^\?]*\/)` 不包含'?'，且以'/'結尾的內容
