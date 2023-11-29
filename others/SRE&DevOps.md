@@ -42,6 +42,8 @@ DevOps（Development and Operations）是一種軟體開發和運營之間協作
 
 DevOps 的目標是加強開發團隊和運營團隊之間的合作，以實現更快的軟體交付、更高的品質和更可靠的運營。
 
+![devops](images/devops.jpg)
+
 以下是一些DevOps可能涉及的主要工作領域：
 
 **持續整合和持續交付（CI/CD）：** DevOps鼓勵實施CI/CD流程，以實現自動化的軟體測試、集成和部署。
