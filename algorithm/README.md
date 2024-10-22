@@ -48,6 +48,11 @@ https://gaohaoyang.github.io/2016/10/16/shuffle-algorithm/
 ## Search
 搜尋
 
+### A* 搜尋演算法
+A* search algorithm
+
+https://zh.wikipedia.org/zh-tw/A*%E6%90%9C%E5%B0%8B%E6%BC%94%E7%AE%97%E6%B3%95
+
 <br>
 
 ## 貪婪演算法
