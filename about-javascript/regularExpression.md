@@ -119,6 +119,8 @@ var reg = /(\-?\d+\.?\d*)px/;
 var new_size = size.replace(reg, 'mvw($1)');
 
 console.log(new_size) // mvw(16.75)
+
+// chatGPT 給的格式: (-?(?:\d*\.\d+|\d+))px
 ```
 
 ## 切詞
