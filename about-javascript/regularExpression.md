@@ -104,13 +104,22 @@ console.log(match[2]); // 5678
 ```javascript
 var origin = '/campaign/AAA/?v=1';
 var reg = /\/campaign\/((?:[^\?]*\/)?)($|\?.*)/;
-var path = origin.replace(reg, '/campaign/$1index.html$2')
+var path = origin.replace(reg, '/campaign/$1index.html$2');
 
 console.log(path); //path: /campaign/AAA/index.html?v=1
 ```
 
 `(?:[^\?]*\/)` 不包含'?'，且以'/'結尾的內容
 
+**case 尺寸替換**
+
+```javascript
+var size = '16.75px';
+var reg = /(\-?\d+\.?\d*)px/;
+var new_size = size.replace(reg, 'mvw($1)');
+
+console.log(new_size) // mvw(16.75)
+```
 
 ## 切詞
 
